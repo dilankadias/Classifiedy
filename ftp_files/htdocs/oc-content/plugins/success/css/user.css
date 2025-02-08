@@ -1,0 +1,46 @@
+#scf-box .sr-buttons {margin:0;text-align:center;margin:0 0 4px 0;}
+#scf-box .sr-buttons a {float:none;display:inline-block;margin:0 3px 8px 3px;}
+
+#scf-cover {display: block; background: #000; opacity: 0.3; z-index: 9998; position: fixed; top: 0; left: 0; bottom: 0; right: 0;}
+#scf-box {max-height: 80%; cursor: default; display: block;background:#fff; position: absolute; top: 10%; left: 50%; width: 480px!important; height: 480px!important;border-radius:5px;max-height: 80%;overflow-y:auto; margin-left: -240px;box-shadow:0 10px 25px rgba(0, 0, 0, 0.5); z-index: 99999;overflow-x:hidden;}
+#scf-box, #scf-box * {box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+#scf-box .inside {float:left;clear:both;width:100%;padding:40px 25px;}
+#scf-box .inside > div {float:left;clear:both;width:100%;margin:5px 0;text-align:center;font-size:14px;color:#444;line-height:18px;}
+#scf-box .inside > div.icon img {display:inline-block;width:100px;height:auto;}
+#scf-box .inside > div.top {font-size:24px;font-weight:600;line-height:26px;margin:20px 0;}
+#scf-box .inside > div.share {margin-top:25px;}
+#scf-box .share span a {display:inline-block;margin:0 2px;height:36px;width:auto;position:relative;border-radius:3px;padding:0 13px 0 47px;overflow:hidden;font-size:13px;font-weight:500;color:#fff;text-decoration:none;line-height:36px;}
+#scf-box .share span a .fa {color:#fff;font-size:20px;width:36px;height:36px;line-height:36px;text-align:center;position:absolute;left:0;top:0;border-top-left-radius:3px;border-bottom-left-radius:3px;background:rgba(0,0,0,0.15);border-right:1px solid rgba(0,0,0,0.03);}
+#scf-box .share span a:hover {opacity:0.85;}
+#scf-box .share .whatsapp a {background:#58b844;}
+#scf-box .share .facebook a {background:#0067CB;}
+#scf-box .share .twitter a {background:#00ACB3;}
+#scf-box .share .youtube a {background:#D73900;}
+#scf-box .share .google-plus a {background:#E23C00;}
+#scf-box .share .pinterest a {background:#CB2027;}
+#scf-box .share .linkedin a {background:#6BBE65;}
+#scf-box .share .instagram a {background:#E2AC00;}
+#scf-box .share .rss a {background:#EFAC00;}
+#scf-box .inside > div.actions {margin-top:25px;}
+#scf-box .inside > div.actions a {margin:0 10px;font-size:16px;font-weight:bold;}
+#scf-box .inside > div.actions a:hover {text-decoration:underline;color:#333;}
+
+#scf-box #scf-close {position:absolute;right:8px;top:8px;font-size:24px;color:#333;width:32px;height:32px;text-decoration:none;text-align:center;cursor:pointer;transition: 0.25s;}
+#scf-box #scf-close i {line-height:30px;text-align:center;}
+#scf-box #scf-close:hover {transform:scale(1.1);}
+
+.scf-support {display:inline-block;width:100%;clear:both;text-align:right;border-top:1px solid #eee;margin:15px 0 10px 0;padding:10px 0;}
+.scf-support a, .scf-support a:hover {font-size:11px;font-weight:500;color:#aaa;text-decoration:none;}
+
+
+@media screen and (max-width: 560px) {
+  #scf-box {width: 90%!important; max-width: 90%; height: 90%!important; max-height: 90%; margin: 0; top: 5%; left: 5%;}
+}
+
+
+
+/* RTL */
+html[dir="rtl"] #scf-box {direction:rtl;}
+html[dir="rtl"] #scf-box #scf-close {left:8px;right:auto;}
+html[dir="rtl"] #scf-box .share span a {padding:0 47px 0 13px;}
+html[dir="rtl"] #scf-box .share span a .fa {right:0;left:auto;border-radius:0 3px 3px 0;border-left:1px solid rgba(0,0,0,0.03);border-right:none;}

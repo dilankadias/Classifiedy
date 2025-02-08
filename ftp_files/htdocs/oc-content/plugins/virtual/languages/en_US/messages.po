@@ -1,0 +1,486 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Virtual Products Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-16 09:21+0100\n"
+"PO-Revision-Date: 2023-02-16 09:21+0100\n"
+"Last-Translator: Miso <miso546@azet.sk>\n"
+"Language-Team: MB Themes <info@mb-themes.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2\n"
+"X-Poedit-KeywordsList: __;_e;_m\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: languages/en_US\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: admin/configure.php:3 index.php:147 index.php:156 index.php:186
+msgid "Configure"
+msgstr ""
+
+#: admin/configure.php:27
+msgid "Settings were successfully saved"
+msgstr ""
+
+#: admin/configure.php:88
+msgid "Files validation"
+msgstr ""
+
+#: admin/configure.php:92
+msgid "Bellow are shown all files that are pending validation."
+msgstr ""
+
+#: admin/configure.php:104
+msgid "ID"
+msgstr ""
+
+#: admin/configure.php:105
+msgid "Item"
+msgstr ""
+
+#: admin/configure.php:106
+msgid "Author"
+msgstr ""
+
+#: admin/configure.php:107
+msgid "File ID"
+msgstr ""
+
+#: admin/configure.php:108
+msgid "File"
+msgstr ""
+
+#: admin/configure.php:109 user/downloads.php:18 user/downloads.php:60
+#: user/upload.php:47
+msgid "Version"
+msgstr ""
+
+#: admin/configure.php:110
+msgid "Upload Date"
+msgstr ""
+
+#: admin/configure.php:111 user/upload.php:49
+msgid "Status"
+msgstr ""
+
+#: admin/configure.php:112
+msgid "Comment (from author)"
+msgstr ""
+
+#: admin/configure.php:120
+msgid "No files has been found"
+msgstr ""
+
+#: admin/configure.php:132
+msgid "Unregistered"
+msgstr ""
+
+#: admin/configure.php:138
+msgid "File removed"
+msgstr ""
+
+#: admin/configure.php:147 user/upload.php:63
+msgid "Pending"
+msgstr ""
+
+#: admin/configure.php:149 user/upload.php:65
+msgid "Approved"
+msgstr ""
+
+#: admin/configure.php:151 user/upload.php:67
+msgid "Outdated"
+msgstr ""
+
+#: admin/configure.php:153 user/upload.php:69
+msgid "Rejected"
+msgstr ""
+
+#: admin/configure.php:184
+msgid "Configuration"
+msgstr ""
+
+#: admin/configure.php:196
+msgid "Require Validation"
+msgstr ""
+
+#: admin/configure.php:199
+msgid "Admin must validate each newly added file."
+msgstr ""
+
+#: admin/configure.php:203
+msgid "Remove Older Versions"
+msgstr ""
+
+#: admin/configure.php:206
+msgid ""
+"Enable to automatically remove older files, when new version is uploaded."
+msgstr ""
+
+#: admin/configure.php:210
+msgid "Hook Download Link"
+msgstr ""
+
+#: admin/configure.php:213
+msgid ""
+"Enable to automatically hook download link into item page using hook "
+"item_detail."
+msgstr ""
+
+#: admin/configure.php:217
+msgid "Style Download link as Button"
+msgstr ""
+
+#: admin/configure.php:220
+msgid "When enabled, download link is styled as button."
+msgstr ""
+
+#: admin/configure.php:224
+msgid "Connect to Osclass Pay"
+msgstr ""
+
+#: admin/configure.php:227
+#, php-format
+msgid ""
+"When enabled, user can download product just in case it has been purchased "
+"with %s or it is free/check with seller."
+msgstr ""
+
+#: admin/configure.php:231
+msgid "File Required"
+msgstr ""
+
+#: admin/configure.php:234
+msgid "User must upload file when publishing new listing."
+msgstr ""
+
+#: admin/configure.php:239
+msgid "Allowed Extensions"
+msgstr ""
+
+#: admin/configure.php:242
+msgid "What are extensions user can upload. Example: zip,rar,doc"
+msgstr ""
+
+#: admin/configure.php:247
+msgid "Max. File Size"
+msgstr ""
+
+#: admin/configure.php:250
+msgid "Maximum size of uploaded file in megabytes. Example: 20"
+msgstr ""
+
+#: admin/configure.php:255
+msgid "Category"
+msgstr ""
+
+#: admin/configure.php:262
+msgid "If not category selected, advert is shown in all categories."
+msgstr ""
+
+#: admin/configure.php:269
+msgid "This is demo site"
+msgstr ""
+
+#: admin/configure.php:269 admin/configure.php:271
+msgid "Save"
+msgstr ""
+
+#: admin/configure.php:284
+msgid "Plugin Setup"
+msgstr ""
+
+#: admin/configure.php:288
+msgid ""
+"To show file upload link on item (item.php, user-items.php), use following "
+"code:"
+msgstr ""
+
+#: admin/configure.php:295
+msgid ""
+"To show file download link on item (item.php, user-items.php), use following "
+"code:"
+msgstr ""
+
+#: email.php:25
+msgid "Validate"
+msgstr ""
+
+#: email.php:26 user/downloads.php:41 user/downloads.php:43
+#: user/downloads.php:83 user/downloads.php:85 user/upload.php:78
+#: user/upload.php:80
+msgid "Download"
+msgstr ""
+
+#: email.php:43
+msgid "Admin"
+msgstr ""
+
+#: email.php:86
+msgid "APPROVED"
+msgstr ""
+
+#: email.php:88
+msgid "REJECTED"
+msgstr ""
+
+#: functions.php:33 functions.php:35
+#, php-format
+msgid "Download v%s"
+msgstr ""
+
+#: functions.php:35
+msgid "Please login to download this file"
+msgstr ""
+
+#: functions.php:116
+msgid "An error with file upload has occurred, please try again"
+msgstr ""
+
+#: functions.php:119 functions.php:199
+msgid "File is too big and was not uploaded. Maximum file size is:"
+msgstr ""
+
+#: functions.php:122 functions.php:202
+msgid ""
+"File extension is not allowed, file was not sent. Only files with following "
+"extensions are allowed to be uploaded"
+msgstr ""
+
+#: functions.php:125
+msgid "An error with file upload has occurred, please try again."
+msgstr ""
+
+#: functions.php:129
+msgid "No file selected."
+msgstr ""
+
+#: functions.php:165
+msgid ""
+"New file version uploaded successfully, it will be active after validation."
+msgstr ""
+
+#: functions.php:167
+msgid "New file version uploaded successfully."
+msgstr ""
+
+#: functions.php:205
+msgid "File is required, please upload file to this item."
+msgstr ""
+
+#: functions.php:248
+msgid "minute ago"
+msgstr ""
+
+#: functions.php:250
+#, php-format
+msgid "%d minutes ago"
+msgstr ""
+
+#: functions.php:252
+#, php-format
+msgid "%d hour ago"
+msgstr ""
+
+#: functions.php:254
+#, php-format
+msgid "%d hours ago"
+msgstr ""
+
+#: functions.php:256
+#, php-format
+msgid "%d day ago"
+msgstr ""
+
+#: functions.php:258
+#, php-format
+msgid "%d days ago"
+msgstr ""
+
+#: functions.php:260
+#, php-format
+msgid "%d week ago"
+msgstr ""
+
+#: functions.php:262
+#, php-format
+msgid "%d weeks ago"
+msgstr ""
+
+#: functions.php:264
+#, php-format
+msgid "%d month ago"
+msgstr ""
+
+#: functions.php:266
+#, php-format
+msgid "%d months ago"
+msgstr ""
+
+#: functions.php:268
+#, php-format
+msgid "%d year ago"
+msgstr ""
+
+#: functions.php:270
+#, php-format
+msgid "%d years ago"
+msgstr ""
+
+#: index.php:55 user/upload-form.php:71
+msgid "Upload file"
+msgstr ""
+
+#: index.php:67 index.php:69
+msgid "Downloads"
+msgstr ""
+
+#: index.php:83
+msgid "File to be validated"
+msgstr ""
+
+#: index.php:83
+msgid "Files to be validated"
+msgstr ""
+
+#: index.php:171
+msgid "Report Bug"
+msgstr ""
+
+#: index.php:172
+msgid "Support Forums"
+msgstr ""
+
+#: index.php:173
+msgid "Contact Us"
+msgstr ""
+
+#: user/download-admin.php:26 user/download.php:34
+msgid "File not found, please try again later"
+msgstr ""
+
+#: user/download-admin.php:29 user/download.php:37
+msgid ""
+"You are not allowed to download this product, you must purchase it first."
+msgstr ""
+
+#: user/downloads.php:10
+msgid "Premium downloads"
+msgstr ""
+
+#: user/downloads.php:11
+msgid "Free downloads"
+msgstr ""
+
+#: user/downloads.php:17 user/downloads.php:59
+msgid "Product"
+msgstr ""
+
+#: user/downloads.php:19 user/downloads.php:61
+msgid "Updated"
+msgstr ""
+
+#: user/downloads.php:35 user/downloads.php:77
+msgid "- no file available -"
+msgstr ""
+
+#: user/downloads.php:43 user/downloads.php:85
+msgid "File not available, try again later"
+msgstr ""
+
+#: user/downloads.php:51
+msgid "You have no available premium downloads"
+msgstr ""
+
+#: user/downloads.php:93
+msgid "You have no available free downloads"
+msgstr ""
+
+#: user/upload-form.php:29
+msgid "File upload for item"
+msgstr ""
+
+#: user/upload-form.php:31
+msgid "File upload"
+msgstr ""
+
+#: user/upload-form.php:35
+msgid "required"
+msgstr ""
+
+#: user/upload-form.php:37
+msgid "optional"
+msgstr ""
+
+#: user/upload-form.php:43
+#, php-format
+msgid ""
+"Please upload file associated with this product. File must have extension %s"
+msgstr ""
+
+#: user/upload-form.php:45
+msgid "Each file will be validated by our team"
+msgstr ""
+
+#: user/upload-form.php:51
+msgid "Product version"
+msgstr ""
+
+#: user/upload-form.php:55
+#, php-format
+msgid "Last product version: %s"
+msgstr ""
+
+#: user/upload-form.php:61
+msgid "Version summary"
+msgstr ""
+
+#: user/upload-form.php:62
+msgid "Updated version..."
+msgstr ""
+
+#: user/upload-form.php:66
+msgid "Click to upload"
+msgstr ""
+
+#: user/upload-form.php:76
+#, php-format
+msgid "Allowed extensions: %s"
+msgstr ""
+
+#: user/upload-form.php:77
+#, php-format
+msgid "Maximum size: %dMb"
+msgstr ""
+
+#: user/upload.php:14
+msgid "This is not your product, you cannot upload files there."
+msgstr ""
+
+#: user/upload.php:31
+msgid "Submit new version"
+msgstr ""
+
+#: user/upload.php:37
+msgid "Updates history"
+msgstr ""
+
+#: user/upload.php:39
+msgid ""
+"You cannot remove file versions, to update file please upload new version."
+msgstr ""
+
+#: user/upload.php:42
+msgid "Older file versions are automatically removed."
+msgstr ""
+
+#: user/upload.php:48
+msgid "Comment"
+msgstr ""
+
+#: user/upload.php:50
+msgid "Upload date"
+msgstr ""

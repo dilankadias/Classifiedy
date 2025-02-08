@@ -1,0 +1,790 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Anti-Bot & Bot Protect Plugin\n"
+"POT-Creation-Date: 2024-03-18 17:21+0100\n"
+"PO-Revision-Date: 2024-03-18 17:21+0100\n"
+"Last-Translator: \n"
+"Language-Team: MB Themes <michal.brezak@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: languages/en_US\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: admin/badwords.php:3 index.php:81 index.php:114
+msgid "Bad words"
+msgstr ""
+
+#: admin/badwords.php:16 admin/banwords.php:16 admin/bot_protect.php:35
+#: admin/duplicate.php:20
+msgid "Settings were successfully saved"
+msgstr ""
+
+#: admin/badwords.php:25
+msgid "Badwords settings"
+msgstr ""
+
+#: admin/badwords.php:37
+msgid "Enable Bad Words"
+msgstr ""
+
+#: admin/badwords.php:40
+msgid "When enabled, bad words listed bellow will be masked"
+msgstr ""
+
+#: admin/badwords.php:45 admin/banwords.php:89
+msgid "Badwords List"
+msgstr ""
+
+#: admin/badwords.php:48
+msgid ""
+"Use comma as delimiter, no white spaces needed. Badwords are case "
+"insensitive. Example: word1,Word2,wORD3,WORD4 . Result for title/description "
+"\"I use word4 now.\" will be \"I use ***** now.\""
+msgstr ""
+
+#: admin/badwords.php:56 admin/banwords.php:100 admin/bot_protect.php:171
+#: admin/duplicate.php:164
+msgid "This is demo site"
+msgstr ""
+
+#: admin/badwords.php:56 admin/badwords.php:58 admin/banwords.php:100
+#: admin/banwords.php:102 admin/bot_protect.php:171 admin/bot_protect.php:173
+#: admin/duplicate.php:164 admin/duplicate.php:166
+msgid "Save"
+msgstr ""
+
+#: admin/badwords.php:68 admin/banwords.php:204 admin/bot_protect.php:183
+#: admin/duplicate.php:380
+msgid "Plugin Setup"
+msgstr ""
+
+#: admin/badwords.php:73 admin/duplicate.php:385
+msgid "Bad words feature does not require any modifications in theme files."
+msgstr ""
+
+#: admin/badwords.php:74 admin/duplicate.php:386
+msgid ""
+"In some cases, you may want to replace function osc_item_title() with "
+"ans_clear_title() and osc_item_description() with ans_clear_description()."
+msgstr ""
+
+#: admin/banwords.php:3 index.php:82 index.php:115
+msgid "Ban words"
+msgstr ""
+
+#: admin/banwords.php:24 admin/duplicate.php:58
+msgid "Listing was successfully deleted"
+msgstr ""
+
+#: admin/banwords.php:31 admin/banwords.php:38 admin/banwords.php:45
+#: admin/banwords.php:52
+msgid "Listings containing banword"
+msgstr ""
+
+#: admin/banwords.php:31
+msgid "were successfully marked as Spam"
+msgstr ""
+
+#: admin/banwords.php:38
+msgid "were successfully Deactivated"
+msgstr ""
+
+#: admin/banwords.php:45
+msgid "were successfully Blocked"
+msgstr ""
+
+#: admin/banwords.php:52
+msgid "were successfully Deleted"
+msgstr ""
+
+#: admin/banwords.php:69
+msgid "Ban words settings"
+msgstr ""
+
+#: admin/banwords.php:81
+msgid "Enable Ban Words"
+msgstr ""
+
+#: admin/banwords.php:84
+msgid "When enabled and visitor use one of banned words, vistor get banned."
+msgstr ""
+
+#: admin/banwords.php:92
+msgid ""
+"Use comma as delimiter, no white spaces needed. Ban words are case "
+"insensitive and are not checking whole words. Example: word1,Word2,wORD3,"
+"WORD4 . Usage of any of these words will result in ban, as well as using "
+"them in other word. Having ban word abc1 and using word xyzabc123 will "
+"result in ban as well."
+msgstr ""
+
+#: admin/banwords.php:113 admin/duplicate.php:179
+msgid "Ban words checker"
+msgstr ""
+
+#: admin/banwords.php:117
+msgid ""
+"Before checking for ban words, make sure to save updated list in above "
+"section, if you made change there."
+msgstr ""
+
+#: admin/banwords.php:120
+msgid "Run ban words check on existing items"
+msgstr ""
+
+#: admin/banwords.php:130
+msgid "No ban words defined"
+msgstr ""
+
+#: admin/banwords.php:140
+#, php-format
+msgid "Ban word: %s"
+msgstr ""
+
+#: admin/banwords.php:141 admin/duplicate.php:227
+msgid "Are you sure you want to mark as spam all selected listings"
+msgstr ""
+
+#: admin/banwords.php:141 admin/duplicate.php:227
+msgid "Mark all as Spam"
+msgstr ""
+
+#: admin/banwords.php:142 admin/duplicate.php:228
+msgid "Are you sure you want to block all selected listings"
+msgstr ""
+
+#: admin/banwords.php:142 admin/duplicate.php:228
+msgid "Block all"
+msgstr ""
+
+#: admin/banwords.php:143 admin/duplicate.php:229
+msgid "Are you sure you want to deactivate all selected listings"
+msgstr ""
+
+#: admin/banwords.php:143 admin/duplicate.php:229
+msgid "Deactivate all"
+msgstr ""
+
+#: admin/banwords.php:144 admin/duplicate.php:230
+msgid "Are you sure you want to delete all selected listings"
+msgstr ""
+
+#: admin/banwords.php:144 admin/duplicate.php:230
+msgid "Delete all"
+msgstr ""
+
+#: admin/banwords.php:149 admin/duplicate.php:238
+msgid "Status"
+msgstr ""
+
+#: admin/banwords.php:150
+msgid "Item Title"
+msgstr ""
+
+#: admin/banwords.php:151 admin/duplicate.php:242
+msgid "Description"
+msgstr ""
+
+#: admin/banwords.php:152 admin/duplicate.php:243
+msgid "Action"
+msgstr ""
+
+#: admin/banwords.php:168 admin/duplicate.php:278 admin/duplicate.php:290
+msgid "Spam"
+msgstr ""
+
+#: admin/banwords.php:170 admin/duplicate.php:280 admin/duplicate.php:292
+msgid "Blocked"
+msgstr ""
+
+#: admin/banwords.php:172 admin/duplicate.php:282 admin/duplicate.php:294
+msgid "Inactive"
+msgstr ""
+
+#: admin/banwords.php:174 admin/duplicate.php:284 admin/duplicate.php:296
+msgid "Active"
+msgstr ""
+
+#: admin/banwords.php:186 admin/duplicate.php:325 admin/duplicate.php:334
+msgid "Are you sure you want to delete this listing"
+msgstr ""
+
+#: admin/banwords.php:209
+msgid "Ban words feature does not require any modifications in theme files."
+msgstr ""
+
+#: admin/bot_protect.php:3
+msgid "Bot protection"
+msgstr ""
+
+#: admin/bot_protect.php:44
+msgid "Bot protection settings"
+msgstr ""
+
+#: admin/bot_protect.php:56
+msgid "Enable Bot Protection Features"
+msgstr ""
+
+#: admin/bot_protect.php:59
+msgid ""
+"When enabled, plugin features to protect your site against bots will be "
+"enabled."
+msgstr ""
+
+#: admin/bot_protect.php:63
+msgid "Enable HoneyPot Protection"
+msgstr ""
+
+#: admin/bot_protect.php:66
+msgid ""
+"When enabled, additional fields  are added into form that are invisible for "
+"regular user, but behave like required for spam bots."
+msgstr ""
+
+#: admin/bot_protect.php:70
+msgid "Ban Detected Bot"
+msgstr ""
+
+#: admin/bot_protect.php:73
+msgid ""
+"When not enabled, new listing / comment / message will not be added or send, "
+"but user will not be banned. It is recommended to enable it so bot is also "
+"banned that leads to lower resource requirement on your server."
+msgstr ""
+
+#: admin/bot_protect.php:78
+msgid "Ban IP Submask"
+msgstr ""
+
+#: admin/bot_protect.php:81
+msgid ""
+"When enabled, whole IP submask is banned. This is recommended as spam bots "
+"usually switch last digit of IP address and trying to spam again."
+msgstr ""
+
+#: admin/bot_protect.php:86
+msgid "Use StopForumSpam.com Service"
+msgstr ""
+
+#: admin/bot_protect.php:90
+msgid ""
+"When enabled, plugin automatically validate user email & IP on stopforumspam."
+"com - online database of spam bots. When match is found, user is banned as "
+"spam bot."
+msgstr ""
+
+#: admin/bot_protect.php:91
+msgid ""
+"It is strongly recommended to have this option enabled and correct minimum "
+"confidence set to avoid fake user registrations and spam."
+msgstr ""
+
+#: admin/bot_protect.php:96
+msgid "Min. Confidence"
+msgstr ""
+
+#: admin/bot_protect.php:101
+msgid ""
+"When response from StopForumSpam is received, enter minimum confidence when "
+"this user will be considered as spammer and banned."
+msgstr ""
+
+#: admin/bot_protect.php:102
+msgid ""
+"Example: You set minimum confidence to 80 and record from StopForumSpam.com "
+"has confidence 60 that user is spammer, then this user will not be banned."
+msgstr ""
+
+#: admin/bot_protect.php:103
+msgid ""
+"Setting higher confidence will avoid banning regular users those just "
+"publish a lot. Recommended value is 70-90."
+msgstr ""
+
+#: admin/bot_protect.php:108
+msgid "Identify Refferal URL"
+msgstr ""
+
+#: admin/bot_protect.php:111
+msgid ""
+"Enable to recognize refferal URL of user. If user comes directly to Post "
+"Listing page and referral is not Google, Bing, Yahoo or your website, it "
+"will be banned."
+msgstr ""
+
+#: admin/bot_protect.php:116
+msgid "Ban for too many Uppercase"
+msgstr ""
+
+#: admin/bot_protect.php:119
+msgid ""
+"When enabled, visitor using email with too many uppercase characters will be "
+"banned."
+msgstr ""
+
+#: admin/bot_protect.php:124
+msgid "Ban for too many Digits"
+msgstr ""
+
+#: admin/bot_protect.php:127
+msgid "When enabled, visitor using email with too many digits will be banned."
+msgstr ""
+
+#: admin/bot_protect.php:132
+msgid "Max. Dots in Email"
+msgstr ""
+
+#: admin/bot_protect.php:134
+msgid "dots"
+msgstr ""
+
+#: admin/bot_protect.php:136
+msgid ""
+"When email contains more dots, it will be banned. Example: ad.do.bo.de."
+"co@mail.com contains 5 dots."
+msgstr ""
+
+#: admin/bot_protect.php:141
+msgid "Banned Email Domains"
+msgstr ""
+
+#: admin/bot_protect.php:144
+msgid "Use comma as delimiter, no white spaces needed."
+msgstr ""
+
+#: admin/bot_protect.php:148
+msgid "Whitelisted Email Domains"
+msgstr ""
+
+#: admin/bot_protect.php:151
+msgid ""
+"Use comma as delimiter, no white spaces needed. Keep in mind when you enter "
+"domain here, all others will be blocked !"
+msgstr ""
+
+#: admin/bot_protect.php:155
+msgid "Mutliple account from same IP"
+msgstr ""
+
+#: admin/bot_protect.php:158
+msgid "Allow multiple accounts"
+msgstr ""
+
+#: admin/bot_protect.php:159
+msgid "Allow maximum 3 accounts per IP"
+msgstr ""
+
+#: admin/bot_protect.php:160
+msgid "Deny creating multiple accounts"
+msgstr ""
+
+#: admin/bot_protect.php:163
+msgid ""
+"Allow in case you think there are some suspicious users that register "
+"multiple account to avoid duplicate control. When enabled, user cannot "
+"create accounts (or can create just 3 accounts) from same IP address. Use "
+"only in case you are sure there are not many people coming to your site "
+"using same IP address. When account creation is restricted and limit was "
+"reached, new account will not be created, user will be informed via flash "
+"message, but will not be banned."
+msgstr ""
+
+#: admin/bot_protect.php:187
+msgid "Honeypot Protection Integration"
+msgstr ""
+
+#: admin/bot_protect.php:188
+msgid ""
+"To enable Bot Protect JavaScript Control when user add or validate new "
+"listing, add new comment or contact seller, place following code into form "
+"that manage this action."
+msgstr ""
+
+#: admin/bot_protect.php:189
+msgid ""
+"Plugin tries to push code via hooks. If you can see it in page source code "
+"(form code), there is no action required."
+msgstr ""
+
+#: admin/bot_protect.php:193
+msgid "Files where to place above code:"
+msgstr ""
+
+#: admin/bot_protect.php:196
+msgid "Publish new listing"
+msgstr ""
+
+#: admin/bot_protect.php:196 admin/bot_protect.php:197
+#: admin/bot_protect.php:198
+msgid "in"
+msgstr ""
+
+#: admin/bot_protect.php:196 admin/bot_protect.php:197
+#: admin/bot_protect.php:198
+msgid "into form with"
+msgstr ""
+
+#: admin/bot_protect.php:197
+msgid "Add new comment"
+msgstr ""
+
+#: admin/bot_protect.php:198
+msgid "Contact seller"
+msgstr ""
+
+#: admin/bot_protect.php:203
+msgid ""
+"Note: Code needs to be placed between <strong>&lt;form&gt;</strong> and "
+"<strong>&lt;/form&gt;</strong> tags."
+msgstr ""
+
+#: admin/bot_protect.php:204
+msgid ""
+"Note: Adding this code is not required action, but if you have still "
+"difficulties with spam, it is recommended to do this."
+msgstr ""
+
+#: admin/bot_protect.php:211
+msgid "SpamForumSpam.com requirement"
+msgstr ""
+
+#: admin/bot_protect.php:213
+msgid "Curl"
+msgstr ""
+
+#: admin/bot_protect.php:214
+msgid "SimpleXMLElement"
+msgstr ""
+
+#: admin/bot_protect.php:215
+msgid "allow_url_fopen"
+msgstr ""
+
+#: admin/bot_protect.php:218
+msgid ""
+"If something is <u>disabled</u>, you should disable this function. If you "
+"are getting white page after posting new listing, disable this function as "
+"well."
+msgstr ""
+
+#: admin/duplicate.php:3
+msgid "Duplicated Content"
+msgstr ""
+
+#: admin/duplicate.php:28
+msgid "Email & IP was successfully inserted into Ban List table"
+msgstr ""
+
+#: admin/duplicate.php:33
+msgid "Email was successfully inserted into Ban List table"
+msgstr ""
+
+#: admin/duplicate.php:38
+msgid "IP address was successfully inserted into Ban List table"
+msgstr ""
+
+#: admin/duplicate.php:43
+msgid "Listings were successfully marked as spam"
+msgstr ""
+
+#: admin/duplicate.php:48
+msgid "Listings were successfully deactivated"
+msgstr ""
+
+#: admin/duplicate.php:53
+msgid "Listings were successfully blocked"
+msgstr ""
+
+#: admin/duplicate.php:65
+msgid "Listings from email"
+msgstr ""
+
+#: admin/duplicate.php:65
+msgid "were successfully deleted"
+msgstr ""
+
+#: admin/duplicate.php:102
+msgid "Duplicated content settings"
+msgstr ""
+
+#: admin/duplicate.php:114
+msgid "Enable Duplicate Check"
+msgstr ""
+
+#: admin/duplicate.php:117
+msgid ""
+"When enabled, plugin will check each new listing added against all existing "
+"listings posted from same email address to check if this user did not "
+"already posted very similar listing."
+msgstr ""
+
+#: admin/duplicate.php:122
+msgid "Duplicate Item Action"
+msgstr ""
+
+#: admin/duplicate.php:124
+msgid "Mark listing as spam"
+msgstr ""
+
+#: admin/duplicate.php:125
+msgid "Delete listing"
+msgstr ""
+
+#: admin/duplicate.php:128
+msgid ""
+"When new listing is identified as duplicate, you can mark it as spam and "
+"disable for front-office or delete it from database to avoid overloading of "
+"database and reduce manual work with deleting duplicates."
+msgstr ""
+
+#: admin/duplicate.php:133
+msgid "Maximum Similarity"
+msgstr ""
+
+#: admin/duplicate.php:137
+msgid ""
+"Maximum acceptable percentage of similarity means, when title/description of "
+"new listing is similar to any other title/description of listing posted by "
+"same user, it is detected as duplicate. Lower percentage means higer "
+"protection. Recommended is 80%."
+msgstr ""
+
+#: admin/duplicate.php:142
+msgid "Check Characters"
+msgstr ""
+
+#: admin/duplicate.php:144
+msgid "characters"
+msgstr ""
+
+#: admin/duplicate.php:146
+msgid ""
+"Set how many characters from title/description are used to detect duplicate "
+"listing. Note that more characters means more resources required, "
+"recommended is 200 characters. Example: If you set 200 characters to compare "
+"and description is 500 characters long, just first 200 characters is used."
+msgstr ""
+
+#: admin/duplicate.php:151
+msgid "Items per Page"
+msgstr ""
+
+#: admin/duplicate.php:153
+msgid "items"
+msgstr ""
+
+#: admin/duplicate.php:155
+msgid ""
+"How many listings are compared on 1 page when you are looking for duplicates "
+"that already exists. More listings require more resources. Remember that "
+"when particular page is empty, it does not mean that also next page is "
+"empty. It just means, that on this page were not found any duplicates."
+msgstr ""
+
+#: admin/duplicate.php:183
+msgid ""
+"Before checking for duplicated listings, make sure to save updated list in "
+"above section, if you made change there."
+msgstr ""
+
+#: admin/duplicate.php:184
+msgid ""
+"There is no need to check for duplicates on listings posted after plugin "
+"installation."
+msgstr ""
+
+#: admin/duplicate.php:187
+msgid "Run duplicate items control"
+msgstr ""
+
+#: admin/duplicate.php:197
+msgid "No items found"
+msgstr ""
+
+#: admin/duplicate.php:222
+#, php-format
+msgid "User: %s (%s)"
+msgstr ""
+
+#: admin/duplicate.php:224
+msgid "Are you sure you want to add this email and IP to ban list"
+msgstr ""
+
+#: admin/duplicate.php:224
+msgid "Add email & IP to ban list"
+msgstr ""
+
+#: admin/duplicate.php:225
+msgid "Are you sure you want to add this email to ban list"
+msgstr ""
+
+#: admin/duplicate.php:225
+msgid "Add email to ban list"
+msgstr ""
+
+#: admin/duplicate.php:226
+msgid "Are you sure you want to add this IP to ban list"
+msgstr ""
+
+#: admin/duplicate.php:226
+msgid "Add IP to ban list"
+msgstr ""
+
+#: admin/duplicate.php:236
+msgid "Type"
+msgstr ""
+
+#: admin/duplicate.php:237
+msgid "Id"
+msgstr ""
+
+#: admin/duplicate.php:239 admin/duplicate.php:241
+msgid "Similarity"
+msgstr ""
+
+#: admin/duplicate.php:240
+msgid "Title"
+msgstr ""
+
+#: admin/duplicate.php:266
+msgid "Orig"
+msgstr ""
+
+#: admin/duplicate.php:267
+msgid "Check"
+msgstr ""
+
+#: admin/duplicate.php:349
+msgid "No duplicates found on this page."
+msgstr ""
+
+#: admin/duplicate.php:353
+msgid "No duplicates found on this page. Please move to"
+msgstr ""
+
+#: admin/duplicate.php:353
+msgid "next page"
+msgstr ""
+
+#: functions.php:158
+msgid "Email"
+msgstr ""
+
+#: functions.php:166
+msgid "IP"
+msgstr ""
+
+#: functions.php:196
+msgid "Bad referring URL"
+msgstr ""
+
+#: functions.php:217
+msgid "Too many uppercase letters in email"
+msgstr ""
+
+#: functions.php:217
+msgid "chars"
+msgstr ""
+
+#: functions.php:221
+msgid "Too many digits in email"
+msgstr ""
+
+#: functions.php:221
+msgid "digits"
+msgstr ""
+
+#: functions.php:241
+#, php-format
+msgid "Failed honeypot check. Values entered: %s"
+msgstr ""
+
+#: functions.php:247
+msgid ""
+"Your account was not created because there are multiple accounts created "
+"from your IP address."
+msgstr ""
+
+#: functions.php:253
+msgid ""
+"Your account was not created because only 1 account can be created by your "
+"IP address."
+msgstr ""
+
+#: functions.php:271
+msgid "Too many dots in email"
+msgstr ""
+
+#: functions.php:275
+msgid "Banned email domain"
+msgstr ""
+
+#: functions.php:279
+msgid "Email domain not in white list"
+msgstr ""
+
+#: functions.php:295 functions.php:386
+msgid "You were permanently banned as spam bot"
+msgstr ""
+
+#: functions.php:296
+#, php-format
+msgid "Spam > Bot identified (%s%s)"
+msgstr ""
+
+#: functions.php:299
+msgid "Your request has been blocked as it looks like spam"
+msgstr ""
+
+#: functions.php:385
+#, php-format
+msgid "Spam > Banword (%s)"
+msgstr ""
+
+#: index.php:70
+msgid "Configure"
+msgstr ""
+
+#: index.php:79
+msgid "Duplicates"
+msgstr ""
+
+#: index.php:80
+msgid "Bot Protect"
+msgstr ""
+
+#: index.php:97
+msgid "Report Bug"
+msgstr ""
+
+#: index.php:98
+msgid "Support Forums"
+msgstr ""
+
+#: index.php:99
+msgid "Contact Us"
+msgstr ""
+
+#: index.php:112
+msgid "Duplicate"
+msgstr ""
+
+#: index.php:113
+msgid "Bot protect"
+msgstr ""
+
+#: model/ModelANS.php:138
+#, php-format
+msgid "Spam > Email (%s)"
+msgstr ""
+
+#: model/ModelANS.php:148
+#, php-format
+msgid "Spam > IP (%s)"
+msgstr ""

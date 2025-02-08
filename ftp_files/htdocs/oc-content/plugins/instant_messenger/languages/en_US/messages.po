@@ -1,0 +1,916 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Instant Messenger Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-25 09:21+0100\n"
+"PO-Revision-Date: 2022-01-25 09:21+0100\n"
+"Last-Translator: Miso <miso546@azet.sk>\n"
+"Language-Team: MB Themes <info@mb-themes.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-KeywordsList: __;_e;_m\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: languages/en_US\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: admin/configure.php:3 admin/configure.php:37 index.php:415 index.php:424
+#: index.php:456
+msgid "Configure"
+msgstr ""
+
+#: admin/configure.php:28
+msgid "Settings were successfully saved"
+msgstr ""
+
+#: admin/configure.php:49
+msgid "Replace Contact Seller Functionality"
+msgstr ""
+
+#: admin/configure.php:52
+msgid "Contact seller functionality will be replaced with instant messages."
+msgstr ""
+
+#: admin/configure.php:56
+msgid "Show Header Link to Registered Only"
+msgstr ""
+
+#: admin/configure.php:59
+msgid ""
+"When enabled, link in header to show messages will be shown to logged in "
+"users only. <br/>Link is shown via code"
+msgstr ""
+
+#: admin/configure.php:63
+msgid "Notify User only Once"
+msgstr ""
+
+#: admin/configure.php:66
+msgid ""
+"User will not be notified about new messages only if previous messages in "
+"same conversation has been read."
+msgstr ""
+
+#: admin/configure.php:70
+msgid "Hook Button to Item Page"
+msgstr ""
+
+#: admin/configure.php:73
+msgid ""
+"\"Send Message\" button will be shown on listing page without need of theme "
+"modifications."
+msgstr ""
+
+#: admin/configure.php:77
+msgid "Enable Attachments in Messages"
+msgstr ""
+
+#: admin/configure.php:80
+msgid "Users will be able to upload attachment when sending message."
+msgstr ""
+
+#: admin/configure.php:84
+msgid "Attachment Maximum Size"
+msgstr ""
+
+#: admin/configure.php:86
+msgid "kb"
+msgstr ""
+
+#: admin/configure.php:88
+msgid "When attachment is larger, it will not be sent."
+msgstr ""
+
+#: admin/configure.php:92
+msgid "Allowed File Extensions in Attachment"
+msgstr ""
+
+#: admin/configure.php:95
+msgid "Delimit extensions with comma. Example: png, jpg, gif"
+msgstr ""
+
+#: admin/configure.php:99
+msgid "Allow Users to Remove Messages"
+msgstr ""
+
+#: admin/configure.php:102
+msgid ""
+"Users will be able to remove their own messages from conversation, but still "
+"will not be able to remove whole conversation."
+msgstr ""
+
+#: admin/configure.php:106
+msgid "Threads per Page"
+msgstr ""
+
+#: admin/configure.php:108
+msgid "threads"
+msgstr ""
+
+#: admin/configure.php:110
+msgid "Set how many threads are shown on 1 page in user profile (pagination)."
+msgstr ""
+
+#: admin/configure.php:114
+msgid "Login Required"
+msgstr ""
+
+#: admin/configure.php:117
+msgid ""
+"Login is required for users to use messenger functionality - send messages."
+msgstr ""
+
+#: admin/configure.php:121
+msgid "Enable auto-refresh of messages"
+msgstr ""
+
+#: admin/configure.php:124
+msgid ""
+"When enabled, messages in thread are refreshed without need of reload page."
+msgstr ""
+
+#: admin/configure.php:128
+msgid "Ajax refresh frequency"
+msgstr ""
+
+#: admin/configure.php:130
+msgid "miliseconds"
+msgstr ""
+
+#: admin/configure.php:132
+msgid ""
+"Frequency of message refresh using ajax, not recommended to go under 1000 "
+"miliseconds, ideal should be 3000 - 6000 miliseconds (once per 3-6 seconds)."
+msgstr ""
+
+#: admin/configure.php:136
+msgid "User can Remove Thread"
+msgstr ""
+
+#: admin/configure.php:139
+msgid ""
+"When enabled, users can remove their threads. Thread is initially removed "
+"only from account of user that wants to remove it. If also second user wants "
+"to remove thread, it is completely removed from site."
+msgstr ""
+
+#: admin/configure.php:147
+msgid "Save"
+msgstr ""
+
+#: admin/configure.php:149
+msgid "Save (demo - disabled)"
+msgstr ""
+
+#: admin/configure.php:159
+msgid "Plugin Setup"
+msgstr ""
+
+#: admin/configure.php:164
+msgid ""
+"To show link to message center and count of unread messages of user, place "
+"following link to your theme files"
+msgstr ""
+
+#: admin/configure.php:171
+msgid ""
+"To show \"Send message\" button, place following link to your theme files "
+"(item.php, search-list.php, ...)"
+msgstr ""
+
+#: admin/configure.php:181
+msgid "Help"
+msgstr ""
+
+#: admin/configure.php:184
+msgid ""
+"Each user can access messages in user account clicking on \"Message center\"."
+msgstr ""
+
+#: admin/configure.php:185
+msgid ""
+"Each thread can be flagged by user (for personal preference - as important "
+"or not solved yet). Flag is shared between both users in conversation."
+msgstr ""
+
+#: admin/configure.php:186
+msgid ""
+"On each conversation can be set if user want to be notified by email or not."
+msgstr ""
+
+#: admin/configure.php:190
+msgid ""
+"Original \"Contact Seller\" functionality will be replaced with Instant "
+"Messenger plugin. This means that instead of sending mail to seller, message "
+"will be sent and seller can see this message in it's profile."
+msgstr ""
+
+#: admin/configure.php:191
+msgid ""
+"It is highly recommended to enable this. When disabled, each time there is "
+"new message, user will receive email notification, no matter if previous "
+"message was read or not. When enabled, user will receive email notification "
+"only in case when previous message was read. This avoid sending multiple "
+"emails when sending more messages at once. This also avoid spamming your "
+"users."
+msgstr ""
+
+#: admin/configure.php:192
+msgid ""
+"Enable to add \"Send message\" button to listing page via hook. This means "
+"you do not need to modify theme files. Button will be added to item_detail "
+"hook."
+msgstr ""
+
+#: admin/configure.php:193
+msgid ""
+"Allow or deny sending attachments in messages. When enabled, user can upload "
+"files and send it with message. Note that files are stored on your server in "
+"folder oc-content/plugins/instant_messenger/download."
+msgstr ""
+
+#: admin/configure.php:194
+msgid ""
+"Set what is maximum allowed file size of attachment send in message. Note "
+"that attachments are stored on your server so it is recommended to set this "
+"to acceptable value, i.e. 1024kb."
+msgstr ""
+
+#: admin/configure.php:195
+msgid ""
+"Choose which kind of files can be sent in attachments. It is recommended not "
+"to allow sending PHP file as this might be security risk for your site "
+"(script could be executed)."
+msgstr ""
+
+#: admin/configure.php:196
+msgid ""
+"Enable if you want to allow users to remove their messages in threads. Note "
+"that users will not be able to remove threads. In case you want to use this "
+"plugin as way of support delivery, this option should be disabled."
+msgstr ""
+
+#: admin/configure.php:197
+msgid ""
+"Set how many threads should be shown on 1 page. It is recommended to set not "
+"more than 50 threads to avoid server performance issues."
+msgstr ""
+
+#: admin/configure.php:198
+msgid ""
+"When enabled, visitors will have to login in order to be able to send "
+"instant messages."
+msgstr ""
+
+#: admin/configure.php:199
+msgid ""
+"When enabled, messages in thread are refreshed to user using ajax, plugin "
+"then acts as chat. Sound will be played to user when there is new message as "
+"well as task bar will flash."
+msgstr ""
+
+#: admin/configure.php:200
+msgid ""
+"Enter value between 1000 to 10000 (1 - 10 seconds), by default there is 3000."
+msgstr ""
+
+#: admin/maintenance.php:3 index.php:426 index.php:458
+msgid "Maintenance"
+msgstr ""
+
+#: admin/maintenance.php:21
+msgid "Threads with no activity in last"
+msgstr ""
+
+#: admin/maintenance.php:21
+msgid "days were removed. (last activity on"
+msgstr ""
+
+#: admin/maintenance.php:21 admin/maintenance.php:38
+msgid "or earlier)."
+msgstr ""
+
+#: admin/maintenance.php:38
+msgid "Attachments older than"
+msgstr ""
+
+#: admin/maintenance.php:38
+msgid "days were removed. (uploaded on"
+msgstr ""
+
+#: admin/maintenance.php:49
+msgid "Remove old threads"
+msgstr ""
+
+#: admin/maintenance.php:61
+msgid "Remove Threads Older than"
+msgstr ""
+
+#: admin/maintenance.php:63 admin/maintenance.php:92
+msgid "days"
+msgstr ""
+
+#: admin/maintenance.php:65
+msgid ""
+"When there was no activity on thread for last XY days, it will be removed "
+"with all messages."
+msgstr ""
+
+#: admin/maintenance.php:69 admin/maintenance.php:98 user/block.php:10
+#: user/messages.php:142
+msgid "Remove"
+msgstr ""
+
+#: admin/maintenance.php:79
+msgid "Remove old attachments"
+msgstr ""
+
+#: admin/maintenance.php:90
+msgid "Remove Attachments Older than"
+msgstr ""
+
+#: admin/maintenance.php:94
+msgid "Attachments that are older than XY days will be removed."
+msgstr ""
+
+#: admin/messages.php:3 index.php:141 index.php:331 index.php:333 index.php:350
+#: index.php:353 user/threads.php:86 user/threads.php:94
+msgid "Messages"
+msgstr ""
+
+#: admin/messages.php:21
+msgid "Messages in thread"
+msgstr ""
+
+#: admin/messages.php:26
+msgid "Thread Title"
+msgstr ""
+
+#: admin/messages.php:31
+msgid "Questioner (asking question)"
+msgstr ""
+
+#: admin/messages.php:36
+msgid "Respondent (seller)"
+msgstr ""
+
+#: admin/messages.php:41 admin/threads.php:54 index.php:213
+msgid "Listing"
+msgstr ""
+
+#: admin/messages.php:52 admin/threads.php:52
+msgid "ID"
+msgstr ""
+
+#: admin/messages.php:53
+msgid "Sender (from)"
+msgstr ""
+
+#: admin/messages.php:54 user/create_thread.php:93
+msgid "Message"
+msgstr ""
+
+#: admin/messages.php:55 user/messages.php:247
+msgid "Attachment"
+msgstr ""
+
+#: admin/messages.php:56
+msgid "Date"
+msgstr ""
+
+#: admin/messages.php:65
+msgid "Reply of seller"
+msgstr ""
+
+#: admin/messages.php:77
+msgid "No messages in this thread"
+msgstr ""
+
+#: admin/threads.php:3 index.php:344 index.php:345
+msgid "Threads"
+msgstr ""
+
+#: admin/threads.php:28
+msgid "User threads"
+msgstr ""
+
+#: admin/threads.php:39
+msgid "User ID"
+msgstr ""
+
+#: admin/threads.php:44
+msgid "Filter threads"
+msgstr ""
+
+#: admin/threads.php:53 user/create_thread.php:86
+msgid "Title"
+msgstr ""
+
+#: admin/threads.php:55
+msgid "Questioner (from)"
+msgstr ""
+
+#: admin/threads.php:56
+msgid "Respondent (to)"
+msgstr ""
+
+#: admin/threads.php:57
+msgid "Count"
+msgstr ""
+
+#: admin/threads.php:58
+msgid "Last activity"
+msgstr ""
+
+#: admin/threads.php:59
+msgid "Show messages"
+msgstr ""
+
+#: admin/threads.php:72 user/create_thread.php:124 user/threads.php:188
+msgid "pm"
+msgstr ""
+
+#: admin/threads.php:72 user/create_thread.php:124
+msgid "pms"
+msgstr ""
+
+#: admin/threads.php:81
+msgid "No threads found"
+msgstr ""
+
+#: admin/threads.php:83
+msgid "No threads found for selected user"
+msgstr ""
+
+#: admin/threads.php:101 user/threads.php:209
+msgid "Page"
+msgstr ""
+
+#: email.php:2
+msgid "Name of user that will receive email notification"
+msgstr ""
+
+#: email.php:3
+msgid "Name of user that has send message"
+msgstr ""
+
+#: email.php:4
+msgid "Link to listing"
+msgstr ""
+
+#: email.php:5
+msgid "Title of conversation"
+msgstr ""
+
+#: email.php:6
+msgid "Link to conversation"
+msgstr ""
+
+#: email.php:7
+msgid "Message in conversation"
+msgstr ""
+
+#: functions.php:225
+msgid "User has blocked you. You cannot message this user anymore."
+msgstr ""
+
+#: functions.php:232
+msgid "Your current email is not allowed"
+msgstr ""
+
+#: functions.php:235
+msgid "Your current IP is not allowed"
+msgstr ""
+
+#: functions.php:294
+msgid "Check with seller"
+msgstr ""
+
+#: functions.php:296
+msgid "Free"
+msgstr ""
+
+#: functions.php:336
+msgid "An error with file sending has occurred, please try again"
+msgstr ""
+
+#: functions.php:339
+msgid "File is too big and was not sent. Maximum file size is:"
+msgstr ""
+
+#: functions.php:342
+msgid ""
+"File extension is not allowed, file was not sent. Only files with following "
+"extensions are allowed to send in attachment"
+msgstr ""
+
+#: functions.php:345
+msgid "An error with file sending has occurred, please try again."
+msgstr ""
+
+#: functions.php:414
+msgid "Message successfully sent to"
+msgstr ""
+
+#: functions.php:431
+msgid "Minute ago"
+msgstr ""
+
+#: functions.php:433
+#, php-format
+msgid "%d minutes ago"
+msgstr ""
+
+#: functions.php:435
+#, php-format
+msgid "%d hour ago"
+msgstr ""
+
+#: functions.php:437
+#, php-format
+msgid "%d hours ago"
+msgstr ""
+
+#: functions.php:439
+#, php-format
+msgid "%d day ago"
+msgstr ""
+
+#: functions.php:441
+#, php-format
+msgid "%d days ago"
+msgstr ""
+
+#: functions.php:443
+#, php-format
+msgid "%d week ago"
+msgstr ""
+
+#: functions.php:445
+#, php-format
+msgid "%d weeks ago"
+msgstr ""
+
+#: functions.php:447
+#, php-format
+msgid "%d month ago"
+msgstr ""
+
+#: functions.php:449
+#, php-format
+msgid "%d months ago"
+msgstr ""
+
+#: index.php:110
+msgid "Your Name: This field is required, enter your name please."
+msgstr ""
+
+#: index.php:111
+msgid "Your Name: Name is too short, enter at least 3 characters."
+msgstr ""
+
+#: index.php:112
+msgid "Your Email: This field is required, enter your email please."
+msgstr ""
+
+#: index.php:113
+msgid "Your Email: Address your have entered is not in valid format."
+msgstr ""
+
+#: index.php:114
+msgid "Title: Please enter title of this converstation."
+msgstr ""
+
+#: index.php:115
+msgid "Title: Title is too short, enter at least 2 characters."
+msgstr ""
+
+#: index.php:116
+msgid "Message: This field is required, please enter your message."
+msgstr ""
+
+#: index.php:117
+msgid "Message: Enter at least 2 characters."
+msgstr ""
+
+#: index.php:141
+msgid "unread"
+msgstr ""
+
+#: index.php:163
+msgid "Click to open conversation"
+msgstr ""
+
+#: index.php:166 user/create_thread.php:123 user/threads.php:183
+msgid "to"
+msgstr ""
+
+#: index.php:166 user/create_thread.php:123 user/threads.php:183
+msgid "from"
+msgstr ""
+
+#: index.php:174
+msgid "Show all messages"
+msgstr ""
+
+#: index.php:177
+msgid "You have no messages yet"
+msgstr ""
+
+#: index.php:179
+msgid "Login to show messages"
+msgstr ""
+
+#: index.php:213
+msgid "inquiry"
+msgstr ""
+
+#: index.php:237
+msgid "Contact phone"
+msgstr ""
+
+#: index.php:354
+msgid "Create thread"
+msgstr ""
+
+#: index.php:377 index.php:385 user/create_thread.php:98 user/messages.php:282
+msgid "Send message"
+msgstr ""
+
+#: index.php:377
+msgid "Only for logged in users"
+msgstr ""
+
+#: index.php:385
+msgid "to seller"
+msgstr ""
+
+#: index.php:425
+msgid "Converstations"
+msgstr ""
+
+#: index.php:441
+msgid "Report Bug"
+msgstr ""
+
+#: index.php:442
+msgid "Support Forums"
+msgstr ""
+
+#: index.php:443
+msgid "Contact Us"
+msgstr ""
+
+#: index.php:457
+msgid "Conversations"
+msgstr ""
+
+#: user/block.php:7
+msgid "Blocked Users"
+msgstr ""
+
+#: user/block.php:32
+msgid "There are no active blocks"
+msgstr ""
+
+#: user/create_thread.php:9
+msgid "Please login, only authenticated users can send instant messages."
+msgstr ""
+
+#: user/create_thread.php:54
+msgid "Start conversation"
+msgstr ""
+
+#: user/create_thread.php:72
+msgid "Your name"
+msgstr ""
+
+#: user/create_thread.php:79
+msgid "Your email"
+msgstr ""
+
+#: user/create_thread.php:87
+msgid "Message title"
+msgstr ""
+
+#: user/create_thread.php:94
+msgid "Write all details here"
+msgstr ""
+
+#: user/create_thread.php:104 user/messages.php:289
+msgid "Upload file"
+msgstr ""
+
+#: user/create_thread.php:116
+msgid ""
+"You have already contacted seller on this listing, you may want to continue "
+"in existing conversation"
+msgstr ""
+
+#: user/create_thread.php:121
+msgid "Open conversation"
+msgstr ""
+
+#: user/create_thread.php:122 user/messages.php:80 user/threads.php:160
+msgid "No subject"
+msgstr ""
+
+#: user/create_thread.php:132
+msgid "You cannot contact yourself"
+msgstr ""
+
+#: user/messages.php:76 user/threads.php:156
+#, php-format
+msgid "New offer on %s - %s"
+msgstr ""
+
+#: user/messages.php:97
+msgid "Message removed"
+msgstr ""
+
+#: user/messages.php:102
+msgid "This is not your message, you cannot remove it!"
+msgstr ""
+
+#: user/messages.php:114
+msgid "Attachment removed"
+msgstr ""
+
+#: user/messages.php:119
+msgid "This is not your message, you cannot remove attachment on it!"
+msgstr ""
+
+#: user/messages.php:138
+#, php-format
+msgid "%s has removed this thread, you cannot reply back."
+msgstr ""
+
+#: user/messages.php:142
+msgid "Are you sure you want to remove this thread? Action cannot be undone!"
+msgstr ""
+
+#: user/messages.php:142
+msgid "Remove this thread, related messages and attachments from your account"
+msgstr ""
+
+#: user/messages.php:147
+#, php-format
+msgid "Last online %s"
+msgstr ""
+
+#: user/messages.php:162
+#, php-format
+msgid "Offer: %sx %s for %s%s"
+msgstr ""
+
+#: user/messages.php:163
+msgid "Click to view offer"
+msgstr ""
+
+#: user/messages.php:182
+msgid "Show older messages"
+msgstr ""
+
+#: user/messages.php:194
+msgid "customer"
+msgstr ""
+
+#: user/messages.php:196
+msgid "seller"
+msgstr ""
+
+#: user/messages.php:226
+msgid "you"
+msgstr ""
+
+#: user/messages.php:232
+#, php-format
+msgid "%s has already read this message"
+msgstr ""
+
+#: user/messages.php:255
+msgid "Are you sure you want to delete attachment"
+msgstr ""
+
+#: user/messages.php:255
+msgid "Remove file"
+msgstr ""
+
+#: user/messages.php:264
+msgid "Are you sure you want to delete this message"
+msgstr ""
+
+#: user/messages.php:273
+msgid "You do not have any messages"
+msgstr ""
+
+#: user/messages.php:280
+msgid "Write your message here..."
+msgstr ""
+
+#: user/messages.php:299
+msgid "This is not your thread, you cannot read communication of other users!"
+msgstr ""
+
+#: user/messages.php:408
+msgid "You have new message!"
+msgstr ""
+
+#: user/threads.php:8
+msgid "Please log in to see your conversations."
+msgstr ""
+
+#: user/threads.php:20
+msgid "This user is already blocked"
+msgstr ""
+
+#: user/threads.php:23
+msgid "User with email"
+msgstr ""
+
+#: user/threads.php:23
+msgid "has been block and will not be able to message you anymore."
+msgstr ""
+
+#: user/threads.php:34
+msgid "User block removed."
+msgstr ""
+
+#: user/threads.php:43
+msgid "Thread flag has been updated"
+msgstr ""
+
+#: user/threads.php:52
+msgid "Thread notification has been updated"
+msgstr ""
+
+#: user/threads.php:62
+msgid "Thread has been removed"
+msgstr ""
+
+#: user/threads.php:64
+msgid "There was problem with removing thread"
+msgstr ""
+
+#: user/threads.php:87
+#, php-format
+msgid "You have %s threads in total"
+msgstr ""
+
+#: user/threads.php:92
+msgid "Thread"
+msgstr ""
+
+#: user/threads.php:95
+msgid "Flag"
+msgstr ""
+
+#: user/threads.php:96
+msgid "Notify"
+msgstr ""
+
+#: user/threads.php:137
+msgid "User is already blocked"
+msgstr ""
+
+#: user/threads.php:140
+msgid "Block user"
+msgstr ""
+
+#: user/threads.php:165
+msgid "There are unread messages in this thread!"
+msgstr ""
+
+#: user/threads.php:168
+msgid "New offer"
+msgstr ""
+
+#: user/threads.php:188
+msgid "s"
+msgstr ""
+
+#: user/threads.php:191
+msgid "You have marked this message as important. Click to unmark."
+msgstr ""
+
+#: user/threads.php:191
+msgid "Click to mark."
+msgstr ""
+
+#: user/threads.php:195
+msgid ""
+"You will receive email when there is new message in this thread. Click to "
+"cancel notifications."
+msgstr ""
+
+#: user/threads.php:195
+msgid "Click to enable notifications."
+msgstr ""
+
+#: user/threads.php:218
+msgid "You do not have any conversations yet"
+msgstr ""

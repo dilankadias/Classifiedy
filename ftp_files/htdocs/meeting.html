@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classifiedy Meeting</title>
+  <style>
+    /* Set the background color of the entire page to dark */
+    body {
+      background-color: #181818; /* Dark background */
+      color: white; /* Light text */
+      margin: 0;
+      font-family: Arial, sans-serif;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative; /* Needed for absolute positioning of the loader */
+    }
+
+    /* Style for the logo */
+    #logo {
+      max-width: 200px;
+      margin-bottom: 20px;
+    }
+
+    /* Make the container for Jitsi full height */
+    #jaas-container {
+      width: 100%;
+      height: 100%;
+      max-width: 1200px; /* Max width for the iframe */
+    }
+
+    /* Style for the loading screen */
+    .loading-screen {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8); /* Dark overlay */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999; /* Keep the loading screen above the content */
+    }
+
+    /* Style for the progress bar container */
+    .progress-bar-container {
+      width: 80%;
+      height: 30px;
+      background-color: #ddd;
+      border-radius: 15px;
+      overflow: hidden;
+      position: relative;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    /* The progress bar itself */
+    .progress-bar {
+      width: 0;
+      height: 100%;
+      background-color: #3498db; /* Blue color */
+      border-radius: 15px;
+      transition: width 1s ease-out;
+    }
+
+    /* Style for the spinning Apple-like animation */
+    .spinner {
+      border: 8px solid #f3f3f3; /* Light grey background */
+      border-top: 8px solid #3498db; /* Blue color for spinner */
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      animation: spin 2s linear infinite; /* Spinning animation */
+      display: none; /* Initially hidden */
+    }
+
+    /* Keyframes for spinning animation */
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+
+  <!-- Load the Jitsi Meet External API script -->
+  <script src="https://8x8.vc/vpaas-magic-cookie-6988fdf126ec4bcf841322de5031148c/external_api.js" defer></script>
+
+  <script type="text/javascript">
+    window.onload = () => {
+      // Hide the loading screen once the page is fully loaded
+      document.getElementById("loading-screen").style.display = "none";
+      
+      // Initialize the Jitsi Meet API
+      const api = new JitsiMeetExternalAPI("8x8.vc", {
+        roomName: "vpaas-magic-cookie-6988fdf126ec4bcf841322de5031148c/Classifiedy Meeting",
+        parentNode: document.querySelector('#jaas-container'),
+        // JWT token for premium features (optional, as per your setup)
+        // jwt: "YOUR_JWT_TOKEN_HERE"
+      });
+      
+      // Simulate the loading progress bar fill (for demonstration)
+      let progress = 0;
+      const progressBar = document.querySelector('.progress-bar');
+      const interval = setInterval(() => {
+        if (progress >= 100) {
+          clearInterval(interval);
+        } else {
+          progress += 1;
+          progressBar.style.width = progress + '%';
+        }
+      }, 30); // Update progress every 30ms
+    }
+  </script>
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div id="loading-screen" class="loading-screen">
+    <!-- Progress bar container -->
+    <div class="progress-bar-container">
+      <div class="progress-bar"></div>
+    </div>
+    <!-- Optional spinning circle for Apple-like animation -->
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Logo Section -->
+  <img id="logo" src="https://classifiedy.com/oc-content/uploads/logo.png" alt="Logo" />
+
+  <!-- Jitsi Meet Container -->
+  <div id="jaas-container"></div>
+</body>
+</html>

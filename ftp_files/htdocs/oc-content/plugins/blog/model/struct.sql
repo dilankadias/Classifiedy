@@ -1,0 +1,92 @@
+SET FOREIGN_KEY_CHECKS=0;
+
+
+DROP TABLE IF EXISTS /*TABLE_PREFIX*/t_blog;
+CREATE TABLE /*TABLE_PREFIX*/t_blog (
+  pk_i_id INT NOT NULL AUTO_INCREMENT,
+  s_slug VARCHAR(200),
+  s_image VARCHAR(500),
+  i_status TINYINT(1) DEFAULT 0,
+  i_category INT(10) DEFAULT 0,
+  i_order INT(10) DEFAULT 9999,
+  i_rating INT(10) DEFAULT 0,
+  i_view INT(10) DEFAULT 0,
+  fk_i_user_id INT(10),
+  dt_pub_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+
+  PRIMARY KEY (pk_i_id)
+) ENGINE=InnoDB DEFAULT CHARACTER SET 'UTF8' COLLATE 'UTF8_GENERAL_CI';
+
+
+DROP TABLE IF EXISTS /*TABLE_PREFIX*/t_blog_locale;
+CREATE TABLE /*TABLE_PREFIX*/t_blog_locale (
+  pk_i_id INT NOT NULL AUTO_INCREMENT,
+  fk_i_blog_id INT NOT NULL,
+  fk_c_locale_code CHAR(5) NOT NULL,
+  s_title VARCHAR(200) NULL,
+  s_subtitle VARCHAR(500) NULL,
+  s_description MEDIUMTEXT NULL,
+  s_seo_title VARCHAR(200) NULL,
+  s_seo_description VARCHAR(500) NULL,
+
+  PRIMARY KEY (pk_i_id),
+  FOREIGN KEY (fk_i_blog_id) REFERENCES /*TABLE_PREFIX*/t_blog (pk_i_id) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARACTER SET 'UTF8' COLLATE 'UTF8_GENERAL_CI';
+
+
+
+DROP TABLE IF EXISTS /*TABLE_PREFIX*/t_blog_comment;
+CREATE TABLE /*TABLE_PREFIX*/t_blog_comment (
+  pk_i_id INT NOT NULL AUTO_INCREMENT,
+  fk_i_blog_id INT NOT NULL,
+  fk_i_os_user_id INT NOT NULL,
+  s_comment VARCHAR(5000) NULL,
+  b_enabled TINYINT(1) DEFAULT 0,
+  dt_pub_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+
+  PRIMARY KEY (pk_i_id),
+  FOREIGN KEY (fk_i_blog_id) REFERENCES /*TABLE_PREFIX*/t_blog (pk_i_id) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARACTER SET 'UTF8' COLLATE 'UTF8_GENERAL_CI';
+
+
+DROP TABLE IF EXISTS /*TABLE_PREFIX*/t_blog_user;
+CREATE TABLE /*TABLE_PREFIX*/t_blog_user (
+  pk_i_id INT NOT NULL AUTO_INCREMENT,
+  fk_i_user_id INT NOT NULL,
+  s_name VARCHAR(100),
+  s_image VARCHAR(500) NULL,
+  s_skills VARCHAR(500) NULL,
+  s_about VARCHAR(1000) NULL,
+  s_category_id VARCHAR(500),
+  dt_reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+
+  PRIMARY KEY (pk_i_id)
+) ENGINE=InnoDB DEFAULT CHARACTER SET 'UTF8' COLLATE 'UTF8_GENERAL_CI';
+
+
+DROP TABLE IF EXISTS /*TABLE_PREFIX*/t_blog_category;
+CREATE TABLE /*TABLE_PREFIX*/t_blog_category (
+  pk_i_id INT NOT NULL AUTO_INCREMENT,
+  fk_c_locale_code CHAR(5) NOT NULL,
+  s_color VARCHAR(20) NULL,
+  i_order INT(10) DEFAULT 9999,
+
+  PRIMARY KEY (pk_i_id, fk_c_locale_code)
+) ENGINE=InnoDB DEFAULT CHARACTER SET 'UTF8' COLLATE 'UTF8_GENERAL_CI';
+
+
+
+DROP TABLE IF EXISTS /*TABLE_PREFIX*/t_blog_category_locale;
+CREATE TABLE /*TABLE_PREFIX*/t_blog_category_locale (
+  pk_i_id INT NOT NULL AUTO_INCREMENT,
+  fk_i_category_id INT NOT NULL,
+  fk_c_locale_code CHAR(5) NOT NULL,
+  s_name VARCHAR(200) NULL,
+  s_description VARCHAR(2000) NULL,
+
+  PRIMARY KEY (pk_i_id),
+  FOREIGN KEY (fk_i_category_id) REFERENCES /*TABLE_PREFIX*/t_blog_category (pk_i_id) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARACTER SET 'UTF8' COLLATE 'UTF8_GENERAL_CI';
+
+
+SET FOREIGN_KEY_CHECKS=1;

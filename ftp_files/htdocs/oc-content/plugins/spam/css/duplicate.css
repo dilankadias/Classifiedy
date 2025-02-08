@@ -1,0 +1,62 @@
+#duplicate, #duplicate * {box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;}
+
+.empty.special {padding:10px;width:100%;background:#fff;border:1px solid #ddd;}
+.empty.special .fa {color:#333;}
+.empty.special a {color: #AB0000;text-decoration: underline;}
+.empty.special a:hover {color:#000;}
+
+.options a .fa {color:#444;font-size:14px;text-align:center;width:100%;}
+.options a .fa.fa-trash {color:#AE0000;}
+.options a .fa.fa-pencil {color:#009852;}
+.options a:hover .fa {color:#000;}
+.head-wrap {float:left;width:100%;clear:both;margin-top:20px;}
+
+#pag_list {float:right;padding:0px;font-weight:bold;position:relative;}
+#pag_list a {font-weight:normal;}
+#pag_list .tip {font-size:12px;color:#333;text-align:center;width:100px;padding:6px;position:absolute;top:-35px;right:0;border:1px solid #666;background:#fff;}
+#pag_list .tip .fa-caret-down {color:#666;font-size:16px;position:absolute;bottom:-11px;right:50px;}
+
+#legend {float:left;clear:both;width:100%;font-size:12px;margin:3px 0 15px 0;}
+#legend .as_none, #duplicate .as_none {background:#fff;color:#000;}
+#legend .elem {float:left;width:auto;margin-right:30px;}
+#legend .elem.first {font-weight:bold;margin-right:15px;padding-top:2px;}
+#legend .left {float:left;width:16px;height:16px;border:1px solid #888;}
+#legend .right {float:left;width:auto;font-weight: normal;padding-top: 3px;padding-left: 5px;}
+
+#duplicate { float:left;clear:both;width:100%;font:12px Arial; }
+#duplicate .block {float:left;width:100%;clear:both;}
+#duplicate .as_spam a, #duplicate .as_blocked a, #duplicate .as_inactive a {color: #000}
+
+#duplicate .id { width:6%;float:left;background:#fff;height:44px;text-align:center;padding:4px 5px;font-weight:bold}
+#duplicate .id a {font-weight:bold;text-decoration:underline;font-size:13px;}
+#duplicate .titl { width:37%;float:right;background:#fff;height:22px;padding:4px 5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#444;}
+#duplicate .label-row { width:7%;float:right;height:22px;padding:4px 10px 4px 0;background: #f7f7f7;font-weight: bold;text-align: right;}
+#duplicate .desc { width:37%;float:right;background:#fff;height:22px;padding:4px 5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#444;}
+#duplicate .desc * {padding;0;margin:0;}
+#duplicate .percent { width:7%;float:right;height:22px;text-align:right;padding:4px 5px;color:#fff;font-weight:bold}
+#duplicate .del-special {clear:both;float:left;width:100%;height:1px;background:transparent;margin:0;}
+#duplicate .email a {float:right;margin:0 4px;font-weight:normal;color:#fff;}
+#duplicate .email .fa {float:left;margin:0 4px 0 0;}
+
+#duplicate .label {float:left;clear:both;width:100%;border-bottom:1px solid #333;font-weight:bold;background: #fff;font-size:13px;}
+#duplicate .label .id {width:6%;float:left;height:26px;text-align:center;padding:6px 5px;background:transparent;}
+#duplicate .label .compare {width:7%;float:left;height:26px;padding:6px 10px 6px 0;text-align:right;}
+#duplicate .label .what {width:37%;float:left;height:26px;padding:6px 5px;}
+#duplicate .label .percent {width:7%;float:left;background:#666;height:26px;padding:6px 5px;color:#fff;}
+
+#duplicate .options {float:left;clear:both;margin-top:2px;padding:3px 12px;display:block;width:100%;}
+#duplicate .options a, #duplicate .options img {float:left;display:block;}
+#duplicate .options a {float:left;width:50%;}
+
+#duplicate .redd {background:#DD2A00}
+#duplicate .greenn {background:#02BA2E}
+#duplicate .email { width:100%;float:left;padding:8px;margin-top:20px;height: auto; font-size: 13px; color: #fff; border-bottom: 1px solid #000; background: #333; box-shadow: 0 -1px 0 #fff inset; -webkit-border-bottom-right-radius: 0px; -webkit-border-bottom-left-radius: 0px; -moz-border-radius-bottomright: 0px; -moz-border-radius-bottomleft: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px;}
+
+#duplicate .clear {clear:both;}
+#duplicate .clear-right {clear:right;}
+#duplicate .clear-left {clear:left;}
+
+#legend .as_spam, #duplicate .as_spam {background:#FFCFCF;border-color:#DA5E5E;}
+#legend .as_blocked, #duplicate .as_blocked {background:#C5E0FF;border-color:#4E72BE;}
+#legend .as_inactive, #duplicate .as_inactive {background: #FFF89E;border-color:#B5AF3B;}
+

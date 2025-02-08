@@ -1,0 +1,1690 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: All in One SEO Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-15 19:44+0200\n"
+"PO-Revision-Date: 2023-07-15 19:44+0200\n"
+"Last-Translator: Miso <miso546@azet.sk>\n"
+"Language-Team: MB Themes <info@mb-themes.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2\n"
+"X-Poedit-KeywordsList: __;_e;_m\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: languages/en_US\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: admin/back_links.php:3 index.php:579 index.php:603
+msgid "Back Links"
+msgstr ""
+
+#: admin/back_links.php:16
+msgid "Link was successfully created"
+msgstr ""
+
+#: admin/back_links.php:18
+msgid "Error when creating backlink link"
+msgstr ""
+
+#: admin/back_links.php:18
+msgid "Link title & URL cannot be empty!"
+msgstr ""
+
+#: admin/back_links.php:36
+msgid "Link ID"
+msgstr ""
+
+#: admin/back_links.php:36
+msgid "Title and URL cannot be empty!"
+msgstr ""
+
+#: admin/back_links.php:40
+msgid "Links updated correctly"
+msgstr ""
+
+#: admin/back_links.php:48
+msgid "Back Link with ID"
+msgstr ""
+
+#: admin/back_links.php:48 admin/reciprocal_links.php:76
+msgid "has been successfully removed."
+msgstr ""
+
+#: admin/back_links.php:67 admin/reciprocal_links.php:143
+msgid "For good SEO, it is required to build backlinks structure."
+msgstr ""
+
+#: admin/back_links.php:68
+msgid ""
+"You are exchanging links with other sites to get good off-page SEO factor."
+msgstr ""
+
+#: admin/back_links.php:69
+msgid ""
+"Backlinks functionality of All in One SEO Plugin helps you to manage "
+"backlinks shown on your site that points to other websites."
+msgstr ""
+
+#: admin/back_links.php:70
+msgid ""
+"In this section you can define backlinks and show them in footer without "
+"need to modify theme files everytime you want to place link to other website."
+msgstr ""
+
+#: admin/back_links.php:71
+msgid ""
+"You can also disable some links to not show them in footer without removing "
+"them."
+msgstr ""
+
+#: admin/back_links.php:83
+msgid "Backlinks settings"
+msgstr ""
+
+#: admin/back_links.php:87
+msgid "Automatically Hook Back Links to Footer"
+msgstr ""
+
+#: admin/back_links.php:90
+msgid "Hook <strong>footer</strong> will be used"
+msgstr ""
+
+#: admin/back_links.php:96 admin/htaccess.php:118 admin/items.php:123
+#: admin/items.php:188 admin/items.php:253 admin/pages.php:134
+#: admin/pages.php:199 admin/pages.php:264 admin/robots.php:90
+#: admin/search.php:124 admin/search.php:189 admin/search.php:254
+#: admin/sitemap.php:84
+msgid "Save"
+msgstr ""
+
+#: admin/back_links.php:98 admin/global.php:145
+msgid "Save (demo - disabled)"
+msgstr ""
+
+#: admin/back_links.php:114
+msgid "Add new back link"
+msgstr ""
+
+#: admin/back_links.php:118
+msgid "Link Title"
+msgstr ""
+
+#: admin/back_links.php:119
+msgid "Enter title/name of link"
+msgstr ""
+
+#: admin/back_links.php:123 admin/reciprocal_links.php:212
+msgid "Link URL"
+msgstr ""
+
+#: admin/back_links.php:124
+msgid "Enter URL of link"
+msgstr ""
+
+#: admin/back_links.php:128
+msgid "Show Link in Footer"
+msgstr ""
+
+#: admin/back_links.php:133
+msgid "Set nofollow Attribute to Link"
+msgstr ""
+
+#: admin/back_links.php:139
+msgid "Add link"
+msgstr ""
+
+#: admin/back_links.php:154
+msgid "Manage existing back links"
+msgstr ""
+
+#: admin/back_links.php:161 admin/categories.php:47 admin/locations.php:70
+#: admin/locations.php:121 admin/pages.php:313 admin/reciprocal_links.php:210
+msgid "ID"
+msgstr ""
+
+#: admin/back_links.php:162
+msgid "Title"
+msgstr ""
+
+#: admin/back_links.php:163
+msgid "URL"
+msgstr ""
+
+#: admin/back_links.php:164
+msgid "Generated Link"
+msgstr ""
+
+#: admin/back_links.php:165
+msgid "Footer"
+msgstr ""
+
+#: admin/back_links.php:166
+msgid "nofollow"
+msgstr ""
+
+#: admin/back_links.php:172 admin/reciprocal_links.php:222
+msgid "No links has been added yet"
+msgstr ""
+
+#: admin/back_links.php:183 admin/reciprocal_links.php:247
+msgid "Remove"
+msgstr ""
+
+#: admin/back_links.php:191 admin/categories.php:81 admin/global.php:105
+#: admin/global.php:142 admin/items.php:298 admin/locations.php:96
+#: admin/locations.php:151 admin/pages.php:291 admin/pages.php:343
+#: admin/reciprocal_links.php:266 admin/search.php:281
+msgid "Update"
+msgstr ""
+
+#: admin/back_links.php:200 admin/global.php:194 admin/items.php:353
+#: admin/pages.php:395 admin/search.php:336
+msgid "Plugin Setup"
+msgstr ""
+
+#: admin/back_links.php:205
+msgid ""
+"If you do not want to use hook <strong>footer</strong> as place to show your "
+"links, keep Autohook option disabled and add following code into your theme "
+"files into place you prefer"
+msgstr ""
+
+#: admin/back_links.php:212
+msgid ""
+"Links are wrapped in div with id <strong>#footer-links</strong> and class "
+"<strong>.ais-backlinks</strong> so you can easily style them in your theme "
+"CSS style sheet."
+msgstr ""
+
+#: admin/back_links.php:221 admin/categories.php:91 admin/global.php:212
+#: admin/htaccess.php:128 admin/items.php:371 admin/locations.php:160
+#: admin/pages.php:413 admin/reciprocal_links.php:275 admin/robots.php:100
+#: admin/search.php:354 admin/sitemap.php:117
+msgid "Help"
+msgstr ""
+
+#: admin/back_links.php:224
+msgid ""
+"Hook footer will be used and links will be shown on your site without need "
+"to modify theme files."
+msgstr ""
+
+#: admin/back_links.php:225
+msgid ""
+"Title/Name of link will be used to show link in fron-office. Title should "
+"contain some keyword of link."
+msgstr ""
+
+#: admin/back_links.php:226
+msgid ""
+"Make sure URL is in correct format and starts with http:// or https://, "
+"otherwise link will not be functional."
+msgstr ""
+
+#: admin/back_links.php:227
+msgid ""
+"Add link to footer, when \"Automatically Hook Links to Footer\" is enabled"
+msgstr ""
+
+#: admin/back_links.php:228
+msgid ""
+"Add nofollow attribute to link, then link will not be considered by crawlers "
+"(google bot, ...)"
+msgstr ""
+
+#: admin/categories.php:3 index.php:576 index.php:600
+msgid "Categories"
+msgstr ""
+
+#: admin/categories.php:22
+msgid "Categories meta settings saved"
+msgstr ""
+
+#: admin/categories.php:28
+msgid ""
+"Configuration for meta tags is set on <strong>Search</strong> settings of "
+"plugin, as category links are specific search links (search with category "
+"selected)."
+msgstr ""
+
+#: admin/categories.php:40
+msgid "Manage custom meta tags for categories"
+msgstr ""
+
+#: admin/categories.php:48
+msgid "Category"
+msgstr ""
+
+#: admin/categories.php:49 admin/locations.php:72 admin/locations.php:124
+#: admin/pages.php:315 form/item_post_edit.php:17
+msgid "Meta Title"
+msgstr ""
+
+#: admin/categories.php:50 admin/locations.php:73 admin/locations.php:125
+#: admin/pages.php:316 form/item_post_edit.php:24
+msgid "Meta Description"
+msgstr ""
+
+#: admin/categories.php:55
+msgid "No categories has been added yet"
+msgstr ""
+
+#: admin/categories.php:65
+msgid "Main category"
+msgstr ""
+
+#: admin/categories.php:70
+msgid "Unlock title and description"
+msgstr ""
+
+#: admin/categories.php:94 admin/global.php:221 admin/items.php:376
+#: admin/locations.php:163 admin/pages.php:417 admin/search.php:358
+msgid ""
+"Meta title should have 50-60 characters and Meta description 150-160 "
+"characters."
+msgstr ""
+
+#: admin/categories.php:95
+msgid ""
+"If you want to modify title or description, you need to unlock these fields "
+"for each category. Reason for this is HTML limitation when using too many "
+"inputs at once and this would cause troubles if you would have too many "
+"categories."
+msgstr ""
+
+#: admin/global.php:3 index.php:573 index.php:597
+msgid "Global"
+msgstr ""
+
+#: admin/global.php:27
+msgid "Global settings successfully saved."
+msgstr ""
+
+#: admin/global.php:31
+msgid "Home page tags successfully saved"
+msgstr ""
+
+#: admin/global.php:47
+msgid "Global settings"
+msgstr ""
+
+#: admin/global.php:51
+msgid "Delimiter of Elements in Title"
+msgstr ""
+
+#: admin/global.php:54
+msgid ""
+"Character used to delimit elements in title and meta title. Do not enter "
+"white spaces."
+msgstr ""
+
+#: admin/global.php:59
+msgid "Delimiter of Elements in Description"
+msgstr ""
+
+#: admin/global.php:62
+msgid ""
+"Characters used to delimit elements in meta description. Do not enter white "
+"spaces."
+msgstr ""
+
+#: admin/global.php:66
+msgid "Disable Keywords"
+msgstr ""
+
+#: admin/global.php:69
+msgid "Disable meta keywords globaly on all pages."
+msgstr ""
+
+#: admin/global.php:73
+msgid "Use Default Tags if Empty"
+msgstr ""
+
+#: admin/global.php:76
+msgid ""
+"Use default title, meta title and meta description tags if one generated by "
+"plugin are empty."
+msgstr ""
+
+#: admin/global.php:80
+msgid "Page Title Different to Meta Title"
+msgstr ""
+
+#: admin/global.php:83
+msgid ""
+"When enabled, it will be possible to set different parameters for Title and "
+"Meta Title."
+msgstr ""
+
+#: admin/global.php:87
+msgid "Improve Meta Title for Multi-Language Site"
+msgstr ""
+
+#: admin/global.php:90
+msgid ""
+"If there are 2 or more active languages, language name will be added to Meta "
+"Title."
+msgstr ""
+
+#: admin/global.php:95
+msgid "Disable Meta Tags Feature"
+msgstr ""
+
+#: admin/global.php:98
+msgid ""
+"When enabled, meta tags are not impacted/created/modified by this plugin."
+msgstr ""
+
+#: admin/global.php:120
+msgid "Home page settings"
+msgstr ""
+
+#: admin/global.php:124
+msgid "Home Page Title"
+msgstr ""
+
+#: admin/global.php:129
+msgid "Home Page Meta Title"
+msgstr ""
+
+#: admin/global.php:134
+msgid "Home Page Meta Description"
+msgstr ""
+
+#: admin/global.php:157
+msgid "Snippet preview - shows how home page will look in google search result"
+msgstr ""
+
+#: admin/global.php:167 admin/items.php:324 admin/pages.php:366
+#: admin/search.php:311
+msgid "SomeWeb.com - Welcome"
+msgstr ""
+
+#: admin/global.php:169 admin/items.php:326 admin/pages.php:368
+#: admin/search.php:313
+msgid ""
+"Hello user, welcome to our site. Feel free to check our great offer for best "
+"prices."
+msgstr ""
+
+#: admin/global.php:177 admin/items.php:334 admin/pages.php:376
+#: admin/search.php:321
+msgid "Your website"
+msgstr ""
+
+#: admin/global.php:181 admin/items.php:338 admin/pages.php:380
+#: admin/search.php:325
+msgid "OtherSite.com - Alabama local"
+msgstr ""
+
+#: admin/global.php:183 admin/items.php:340 admin/pages.php:382
+#: admin/search.php:327
+msgid ""
+"Are you looking to trade with videos? Do you want to sell or share them? You "
+"are on right place."
+msgstr ""
+
+#: admin/global.php:199 admin/items.php:358 admin/pages.php:400
+#: admin/search.php:341
+msgid ""
+"By default, <strong>Title</strong> and <strong>Meta Title</strong> are same. "
+"To apply different settings for them it is required to locate following code "
+"in your theme files"
+msgstr ""
+
+#: admin/global.php:201 admin/items.php:360 admin/pages.php:402
+#: admin/search.php:343
+msgid "And replace it with"
+msgstr ""
+
+#: admin/global.php:203 admin/items.php:362 admin/pages.php:404
+#: admin/search.php:345
+msgid ""
+"Usually this code is located in file head.php or common/head.php in your "
+"theme folder."
+msgstr ""
+
+#: admin/global.php:215
+msgid ""
+"It is recommended to use 1 character only, i.e. | or -. Do not enter white "
+"spaces."
+msgstr ""
+
+#: admin/global.php:216
+msgid ""
+"If you leave any of these fields empty, default settings will be used and "
+"website title & description will be shown."
+msgstr ""
+
+#: admin/global.php:217
+msgid ""
+"Nowadays meta keywords are not considered in SEO and there is no reason to "
+"keep them."
+msgstr ""
+
+#: admin/global.php:218
+msgid ""
+"If title, meta title or meta description tags generated by All in One SEO "
+"Plugin are empty, use default one generated by osclass to avoid showing "
+"empty tags."
+msgstr ""
+
+#: admin/global.php:219
+msgid ""
+"When enabled, you will be able to configure page title (shown in browser as "
+"title) differently to meta title (shown in google)."
+msgstr ""
+
+#: admin/global.php:220
+msgid ""
+"If you have 2 or more active languages on your classifieds, language name "
+"will be added to Meta Title to avoid mark your sites as duplicated."
+msgstr ""
+
+#: admin/global.php:222
+msgid ""
+"If meta title or meta description is empty/blank, it is not shown in source "
+"code."
+msgstr ""
+
+#: admin/global.php:223
+msgid ""
+"Note that Google may not show your meta title or description, if it does not "
+"match to search or google can show better content!"
+msgstr ""
+
+#: admin/htaccess.php:3 index.php:582
+msgid ".htaccess"
+msgstr ""
+
+#: admin/htaccess.php:8 admin/robots.php:7
+msgid "This is demo site, you are not authorized to access this section"
+msgstr ""
+
+#: admin/htaccess.php:53
+msgid "Backup file .htaccess_backup file was successfully created"
+msgstr ""
+
+#: admin/htaccess.php:64
+msgid ".htaccess file was successfully updated"
+msgstr ""
+
+#: admin/htaccess.php:67
+msgid ""
+"It is impossible to write to .htaccess file, please change CHMOD settings on "
+"this file."
+msgstr ""
+
+#: admin/htaccess.php:81
+msgid ""
+"You did not activated Friendly URLs. Activate it first or you will not be "
+"able to save settings."
+msgstr ""
+
+#: admin/htaccess.php:82
+msgid "You can activate this on"
+msgstr ""
+
+#: admin/htaccess.php:82
+msgid "oc-admin > Settings > Permalinks > \"Enable friendly urls\""
+msgstr ""
+
+#: admin/htaccess.php:95
+msgid ".htaccess file settings"
+msgstr ""
+
+#: admin/htaccess.php:99
+msgid "Select .htaccess file"
+msgstr ""
+
+#: admin/htaccess.php:101 admin/robots.php:73
+msgid "Custom"
+msgstr ""
+
+#: admin/htaccess.php:102 admin/robots.php:74
+msgid "Original"
+msgstr ""
+
+#: admin/htaccess.php:105
+msgid ""
+"Choose which .htaccess file should be use, if your custom, or default one."
+msgstr ""
+
+#: admin/htaccess.php:109
+msgid "Custom .htaccess file content"
+msgstr ""
+
+#: admin/htaccess.php:112
+msgid "Define content of custom .htaccess file."
+msgstr ""
+
+#: admin/htaccess.php:131
+msgid ""
+"You can use .htaccess generated by this form (custom) or default .htaccess "
+"(original). When original choosen will be choosen, copy from backup file "
+"will be used to restore original file."
+msgstr ""
+
+#: admin/htaccess.php:132
+msgid ""
+"When you create .htaccess file using this form, original one will be back up "
+"in same folder with name <strong>.htaccess_backup</strong>. This file will "
+"be used just in case it does not exist. If it exists, it will not be "
+"overwritten."
+msgstr ""
+
+#: admin/htaccess.php:134
+msgid ""
+"Do not miss following pages that helps you to understand and correctly "
+"generate .htaccess file:"
+msgstr ""
+
+#: admin/htaccess.php:135
+msgid ".htaccess generator"
+msgstr ""
+
+#: admin/htaccess.php:136
+msgid ".htaccess documentation"
+msgstr ""
+
+#: admin/htaccess.php:140
+msgid "Default .htaccess file generated by osclass has content:"
+msgstr ""
+
+#: admin/htaccess.php:144
+msgid ""
+"When you get <strong>500 Internal Server Error</strong> on your site, there "
+"was some problem in saving .htaccess file or your code is incorrect. In this "
+"case just replace content of file with default content listed above."
+msgstr ""
+
+#: admin/items.php:3 index.php:574 index.php:598
+msgid "Items"
+msgstr ""
+
+#: admin/items.php:10 admin/pages.php:10 admin/search.php:10
+msgid "Website Name"
+msgstr ""
+
+#: admin/items.php:10 admin/items.php:11 admin/pages.php:10 admin/pages.php:11
+#: admin/search.php:10 admin/search.php:11
+msgid "Defined General > Settings"
+msgstr ""
+
+#: admin/items.php:11 admin/pages.php:11 admin/search.php:11
+msgid "Website Description"
+msgstr ""
+
+#: admin/items.php:12
+msgid "Item Title"
+msgstr ""
+
+#: admin/items.php:13
+msgid "Item Description"
+msgstr ""
+
+#: admin/items.php:13 admin/pages.php:13
+msgid "First 120 characters of text"
+msgstr ""
+
+#: admin/items.php:14
+msgid "Item Meta Title"
+msgstr ""
+
+#: admin/items.php:14 admin/items.php:15
+msgid "Defined by user"
+msgstr ""
+
+#: admin/items.php:15
+msgid "Item Meta Description"
+msgstr ""
+
+#: admin/items.php:16
+msgid "Item Custom Text"
+msgstr ""
+
+#: admin/items.php:16 admin/pages.php:14 admin/pages.php:15 admin/pages.php:16
+#: admin/search.php:13
+msgid "Defined bellow"
+msgstr ""
+
+#: admin/items.php:17
+msgid "Item Country Name"
+msgstr ""
+
+#: admin/items.php:18
+msgid "Item Region Name"
+msgstr ""
+
+#: admin/items.php:19
+msgid "Item City Name"
+msgstr ""
+
+#: admin/items.php:20
+msgid "Item Category Name"
+msgstr ""
+
+#: admin/items.php:46
+msgid "Custom text for items was successfully saved."
+msgstr ""
+
+#: admin/items.php:50
+msgid "Title settings for items were successfully saved."
+msgstr ""
+
+#: admin/items.php:54
+msgid "Meta title settings for items were successfully saved."
+msgstr ""
+
+#: admin/items.php:58
+msgid "Meta description settings for items were successfully saved."
+msgstr ""
+
+#: admin/items.php:74
+msgid "Items <strong>title</strong> settings"
+msgstr ""
+
+#: admin/items.php:74 admin/pages.php:85 admin/search.php:75
+msgid "Used browser tab, usually it is same as Meta Title"
+msgstr ""
+
+#: admin/items.php:80 admin/items.php:145 admin/items.php:210
+#: admin/pages.php:91 admin/pages.php:156 admin/pages.php:221
+#: admin/search.php:81 admin/search.php:146 admin/search.php:211
+msgid "Drag & drop elements between boxes"
+msgstr ""
+
+#: admin/items.php:86 admin/items.php:151 admin/items.php:216
+#: admin/pages.php:97 admin/pages.php:162 admin/pages.php:227
+#: admin/search.php:87 admin/search.php:152 admin/search.php:217
+msgid "Active elements"
+msgstr ""
+
+#: admin/items.php:105 admin/items.php:170 admin/items.php:235
+#: admin/pages.php:116 admin/pages.php:181 admin/pages.php:246
+#: admin/search.php:106 admin/search.php:171 admin/search.php:236
+msgid "Available elements"
+msgstr ""
+
+#: admin/items.php:139
+msgid "Items <strong>meta title</strong> settings"
+msgstr ""
+
+#: admin/items.php:139 admin/pages.php:150 admin/search.php:140
+msgid ""
+"Used in Google Results as title. Recommended length is 50-60 characters."
+msgstr ""
+
+#: admin/items.php:204
+msgid "Items <strong>meta description</strong> settings"
+msgstr ""
+
+#: admin/items.php:204 admin/pages.php:215 admin/search.php:205
+msgid ""
+"Used in Google Results as description. Recommended length is 150-160 "
+"characters."
+msgstr ""
+
+#: admin/items.php:268
+msgid "Other item settings"
+msgstr ""
+
+#: admin/items.php:272 admin/pages.php:283 admin/search.php:273
+msgid "Custom Text"
+msgstr ""
+
+#: admin/items.php:275
+msgid ""
+"Define custom text for items and use it in title, meta title or meta "
+"description."
+msgstr ""
+
+#: admin/items.php:279
+msgid "Allow Users to Define Own Meta tags"
+msgstr ""
+
+#: admin/items.php:282
+msgid ""
+"Users will be able to define own Meta Tags for listings on publish page."
+msgstr ""
+
+#: admin/items.php:286
+msgid "Restrict Users to Define Meta Tags"
+msgstr ""
+
+#: admin/items.php:288
+msgid "Allow to all users"
+msgstr ""
+
+#: admin/items.php:289
+msgid "Allow to registered users"
+msgstr ""
+
+#: admin/items.php:290
+msgid "Allow to admins"
+msgstr ""
+
+#: admin/items.php:293
+msgid "This form is everytime visible to admins."
+msgstr ""
+
+#: admin/items.php:308
+msgid ""
+"Snippet preview - shows how sample listing will look in google search result"
+msgstr ""
+
+#: admin/items.php:343
+msgid "No listings has been found, preview could not be generated."
+msgstr ""
+
+#: admin/items.php:374
+msgid ""
+"Define custom text for items and use it in title, meta title or meta "
+"description. You can use it i.e. when you want to place some specific text "
+"into title or description."
+msgstr ""
+
+#: admin/items.php:375
+msgid ""
+"Note that no matter what settings you use, if you are logged as admin, you "
+"will be able to see this form in front-office as well."
+msgstr ""
+
+#: admin/locations.php:3 index.php:577 index.php:601
+msgid "Locations"
+msgstr ""
+
+#: admin/locations.php:22
+msgid "Countries meta settings saved"
+msgstr ""
+
+#: admin/locations.php:45
+msgid "Regions meta settings saved"
+msgstr ""
+
+#: admin/locations.php:51
+msgid ""
+"Configuration for meta tags is set on <strong>Search</strong> settings of "
+"plugin, as location links are specific search links (search with country/"
+"region/city selected)."
+msgstr ""
+
+#: admin/locations.php:63
+msgid "Manage custom meta tags for countries"
+msgstr ""
+
+#: admin/locations.php:71 admin/locations.php:122
+msgid "Country"
+msgstr ""
+
+#: admin/locations.php:78
+msgid "No countries has been added yet"
+msgstr ""
+
+#: admin/locations.php:111
+msgid "Manage custom meta tags for regions"
+msgstr ""
+
+#: admin/locations.php:123
+msgid "Region"
+msgstr ""
+
+#: admin/locations.php:130
+msgid "No regions has been added yet"
+msgstr ""
+
+#: admin/pages.php:3
+msgid "Static Pages"
+msgstr ""
+
+#: admin/pages.php:12
+msgid "Page Title"
+msgstr ""
+
+#: admin/pages.php:12
+msgid "Name of certain page"
+msgstr ""
+
+#: admin/pages.php:13
+msgid "Page Content"
+msgstr ""
+
+#: admin/pages.php:14
+msgid "Page Meta Title"
+msgstr ""
+
+#: admin/pages.php:15
+msgid "Page Meta Description"
+msgstr ""
+
+#: admin/pages.php:16
+msgid "Custom Page Text"
+msgstr ""
+
+#: admin/pages.php:35
+msgid "Pages meta settings saved"
+msgstr ""
+
+#: admin/pages.php:57
+msgid "Custom text for pages was successfully saved."
+msgstr ""
+
+#: admin/pages.php:61
+msgid "Title settings for pages were successfully saved."
+msgstr ""
+
+#: admin/pages.php:65
+msgid "Meta title settings for pages were successfully saved."
+msgstr ""
+
+#: admin/pages.php:69
+msgid "Meta description settings for pages were successfully saved."
+msgstr ""
+
+#: admin/pages.php:85
+msgid "Pages <strong>title</strong> settings"
+msgstr ""
+
+#: admin/pages.php:150
+msgid "Pages <strong>meta title</strong> settings"
+msgstr ""
+
+#: admin/pages.php:215
+msgid "Pages <strong>meta description</strong> settings"
+msgstr ""
+
+#: admin/pages.php:279
+msgid "Define custom pages text"
+msgstr ""
+
+#: admin/pages.php:286
+msgid ""
+"Define custom text for pages and use it in title, meta title or meta "
+"description."
+msgstr ""
+
+#: admin/pages.php:306
+msgid "Manage custom meta tags for pages"
+msgstr ""
+
+#: admin/pages.php:314
+msgid "Name"
+msgstr ""
+
+#: admin/pages.php:323
+msgid "No pages has been created yet"
+msgstr ""
+
+#: admin/pages.php:334
+msgid "Edit"
+msgstr ""
+
+#: admin/pages.php:335
+msgid "Preview"
+msgstr ""
+
+#: admin/pages.php:353
+msgid ""
+"Snippet preview - shows how sample page will look in google search result"
+msgstr ""
+
+#: admin/pages.php:385
+msgid "No static pages has been found, preview could not be generated."
+msgstr ""
+
+#: admin/pages.php:416
+msgid ""
+"Define custom text for pages and use it in title, meta title or meta "
+"description. You can use it i.e. when you want to place some specific text "
+"into title or description."
+msgstr ""
+
+#: admin/reciprocal_links.php:3 index.php:580 index.php:604
+msgid "Reciprocal Links"
+msgstr ""
+
+#: admin/reciprocal_links.php:18
+msgid ""
+"Warning: Owner email is not in correct format! Reciprocal link has not been "
+"saved."
+msgstr ""
+
+#: admin/reciprocal_links.php:34
+msgid "Reciprocal Link was successfully created"
+msgstr ""
+
+#: admin/reciprocal_links.php:56 admin/reciprocal_links.php:67
+msgid "It is not possible to get content of website"
+msgstr ""
+
+#: admin/reciprocal_links.php:60 admin/reciprocal_links.php:63
+msgid "Status of Reciprocal Link with ID"
+msgstr ""
+
+#: admin/reciprocal_links.php:60
+msgid "was successfully updated - link was found"
+msgstr ""
+
+#: admin/reciprocal_links.php:63
+msgid "was successfully updated - link was not found"
+msgstr ""
+
+#: admin/reciprocal_links.php:76
+msgid "Reciprocal Link with ID"
+msgstr ""
+
+#: admin/reciprocal_links.php:97
+msgid "Warning: Entered contact email in reciprocal link"
+msgstr ""
+
+#: admin/reciprocal_links.php:97
+msgid "is not in correct format!"
+msgstr ""
+
+#: admin/reciprocal_links.php:103
+msgid ""
+"Error: Your URL, Link URL and Owner Email cannot be empty - problem on link "
+"ID"
+msgstr ""
+
+#: admin/reciprocal_links.php:107
+msgid "Reciprocal Links were updated"
+msgstr ""
+
+#: admin/reciprocal_links.php:122
+msgid "Owner of website"
+msgstr ""
+
+#: admin/reciprocal_links.php:122
+msgid "was successfully notified that backlink was not found"
+msgstr ""
+
+#: admin/reciprocal_links.php:124
+msgid "Error when sending email to reciprocal link"
+msgstr ""
+
+#: admin/reciprocal_links.php:124
+msgid "Contact email is not valid or is empty!"
+msgstr ""
+
+#: admin/reciprocal_links.php:144
+msgid ""
+"Links that are shown on your site and point to other websites are managed in "
+"<strong>Back Links section</strong>."
+msgstr ""
+
+#: admin/reciprocal_links.php:145
+msgid ""
+"In this section you can control and manage links, that were placed on other "
+"websites and are pointing to your site."
+msgstr ""
+
+#: admin/reciprocal_links.php:146
+msgid ""
+"It often happen that people add to their website your link, but remove it "
+"after few days to get better SEO factor, in this section you can easily "
+"check if your link is still placed on partner's website."
+msgstr ""
+
+#: admin/reciprocal_links.php:158
+msgid "Add new reciprocal link"
+msgstr ""
+
+#: admin/reciprocal_links.php:162 admin/reciprocal_links.php:211
+msgid "Your URL"
+msgstr ""
+
+#: admin/reciprocal_links.php:163
+msgid "Enter your URL you used in link"
+msgstr ""
+
+#: admin/reciprocal_links.php:167
+msgid "URL with Your Link"
+msgstr ""
+
+#: admin/reciprocal_links.php:168
+msgid "Enter URL where is your link placed"
+msgstr ""
+
+#: admin/reciprocal_links.php:172
+msgid "Web Owner Email"
+msgstr ""
+
+#: admin/reciprocal_links.php:173
+msgid "Enter email of web owner"
+msgstr ""
+
+#: admin/reciprocal_links.php:179
+msgid ""
+"To better understand, reciprocal link will means:<br/>Your partner has "
+"placed on his website <strong>[URL WITH YOUR LINK]</strong> link that points "
+"to your website <strong>[YOUR URL]</strong>. In case of problem with your "
+"link can contact your partner on email <strong>[WEB OWNER EMAIL]</strong>."
+msgstr ""
+
+#: admin/reciprocal_links.php:180
+msgid ""
+"<strong>Your URL</strong> - is website URL used in link placed on partner's "
+"web pointing to your own website."
+msgstr ""
+
+#: admin/reciprocal_links.php:181
+msgid ""
+"<strong>URL with Your Link</strong> - is website URL of your partner's web, "
+"where is your link placed and where you can see it."
+msgstr ""
+
+#: admin/reciprocal_links.php:182
+msgid ""
+"<strong>Web Owner Email</strong> - is contact email to your partner and you "
+"can contact partner on this mail in case of problems with your link (link "
+"disappeared, was changed, ...)."
+msgstr ""
+
+#: admin/reciprocal_links.php:188
+msgid "Add reciprocal link"
+msgstr ""
+
+#: admin/reciprocal_links.php:203
+msgid "Manage existing reciprocal links"
+msgstr ""
+
+#: admin/reciprocal_links.php:213
+msgid "Owner Email"
+msgstr ""
+
+#: admin/reciprocal_links.php:214
+msgid "Notify"
+msgstr ""
+
+#: admin/reciprocal_links.php:215 admin/reciprocal_links.php:256
+msgid "Status"
+msgstr ""
+
+#: admin/reciprocal_links.php:235 admin/reciprocal_links.php:257
+msgid "Link was found, everything is good"
+msgstr ""
+
+#: admin/reciprocal_links.php:237
+msgid "Link was not found"
+msgstr ""
+
+#: admin/reciprocal_links.php:239 admin/reciprocal_links.php:259
+msgid ""
+"It is not possible to get content of partner's website, make sure it exists"
+msgstr ""
+
+#: admin/reciprocal_links.php:241
+msgid ""
+"No status saved yet or it is not possible to check link on URL, try to "
+"refresh status later"
+msgstr ""
+
+#: admin/reciprocal_links.php:246
+msgid "Refresh"
+msgstr ""
+
+#: admin/reciprocal_links.php:258
+msgid "Link was not found, you should contact your partner"
+msgstr ""
+
+#: admin/reciprocal_links.php:260
+msgid "Status has not been checked yet, click on refresh button"
+msgstr ""
+
+#: admin/reciprocal_links.php:261
+msgid ""
+"If link was not found on partner's website and you want to send "
+"notification, mark \"Notify\" to \"Yes\" and update links. One time email "
+"notification will be sent to all selected partners."
+msgstr ""
+
+#: admin/reciprocal_links.php:278
+msgid ""
+"Your URL is website URL used in link placed on partner's web pointing to "
+"your own website."
+msgstr ""
+
+#: admin/reciprocal_links.php:279
+msgid ""
+"URL with Your Link is website URL of your partner's web, where is your link "
+"placed and where you can see it."
+msgstr ""
+
+#: admin/reciprocal_links.php:280
+msgid ""
+"Web Owner Email is contact email to your partner and you can contact partner "
+"on this mail in case of problems with your link (link disappeared, was "
+"changed, ...)."
+msgstr ""
+
+#: admin/robots.php:3
+msgid "Robots.txt"
+msgstr ""
+
+#: admin/robots.php:38
+msgid "Backup file robots_backup.txt file was successfully created"
+msgstr ""
+
+#: admin/robots.php:49
+msgid "robots.txt file was successfully updated"
+msgstr ""
+
+#: admin/robots.php:52
+msgid ""
+"It is impossible to write to robots.txt file, please change CHMOD settings "
+"on this file."
+msgstr ""
+
+#: admin/robots.php:67
+msgid "Robots.txt file settings"
+msgstr ""
+
+#: admin/robots.php:71
+msgid "Select robots.txt file"
+msgstr ""
+
+#: admin/robots.php:77
+msgid ""
+"Choose which robots.txt file should be use, if your custom, or default one."
+msgstr ""
+
+#: admin/robots.php:81
+msgid "Custom robots.txt file content"
+msgstr ""
+
+#: admin/robots.php:84
+msgid "Define content of custom robots.txt file."
+msgstr ""
+
+#: admin/robots.php:103
+msgid ""
+"You can use robots.txt generated by this form (custom) or default robots.txt "
+"(original). When original choosen will be choosen, copy from backup file "
+"will be used to restore original file"
+msgstr ""
+
+#: admin/robots.php:104
+msgid ""
+"File robots.txt give instruction to search engine crawlers how to index "
+"website, what to index, what not to index and similar. <strong>Example:</"
+"strong> admin folder (oc-admin for osclass) is usually not indexed because "
+"you do not want your customer to access your backoffice, or show links to "
+"your backoffice in search engine."
+msgstr ""
+
+#: admin/robots.php:104
+msgid ""
+"Therefore you should always disable admin folder (oc-admin) not to be "
+"indexed by search engines. For your site it is path:"
+msgstr ""
+
+#: admin/robots.php:105
+msgid ""
+"When you create robots.txt file using this form, original one will be back "
+"up in same folder with name <strong>robots_backup.txt</strong>. This file "
+"will be used just in case it does not exist. If it exists, it will not be "
+"overwritten."
+msgstr ""
+
+#: admin/robots.php:107
+msgid ""
+"Do not miss following pages that helps you to understand and correctly "
+"generate robots.txt file:"
+msgstr ""
+
+#: admin/robots.php:108
+msgid "robots.txt generator"
+msgstr ""
+
+#: admin/robots.php:109
+msgid "robots.txt documentation"
+msgstr ""
+
+#: admin/search.php:3 index.php:575 index.php:599
+msgid "Search"
+msgstr ""
+
+#: admin/search.php:12
+msgid "Search Pattern"
+msgstr ""
+
+#: admin/search.php:12
+msgid "Searched text"
+msgstr ""
+
+#: admin/search.php:13
+msgid "Custom Search Text"
+msgstr ""
+
+#: admin/search.php:14
+msgid "Category Name"
+msgstr ""
+
+#: admin/search.php:14
+msgid "Defined in General > Categories"
+msgstr ""
+
+#: admin/search.php:15
+msgid "Category Description"
+msgstr ""
+
+#: admin/search.php:15
+msgid "First 120 characters"
+msgstr ""
+
+#: admin/search.php:16
+msgid "Category Meta Title"
+msgstr ""
+
+#: admin/search.php:16 admin/search.php:17
+msgid "Defined in Categories section"
+msgstr ""
+
+#: admin/search.php:17
+msgid "Category Meta Description"
+msgstr ""
+
+#: admin/search.php:18
+msgid "Country Name"
+msgstr ""
+
+#: admin/search.php:19
+msgid "Country Meta Title"
+msgstr ""
+
+#: admin/search.php:19 admin/search.php:20 admin/search.php:22
+#: admin/search.php:23
+msgid "Defined in Locations section"
+msgstr ""
+
+#: admin/search.php:20
+msgid "Country Meta Description"
+msgstr ""
+
+#: admin/search.php:21
+msgid "Region Name"
+msgstr ""
+
+#: admin/search.php:22
+msgid "Region Meta Title"
+msgstr ""
+
+#: admin/search.php:23
+msgid "Region Meta Description"
+msgstr ""
+
+#: admin/search.php:24
+msgid "City Name"
+msgstr ""
+
+#: admin/search.php:25
+msgid "Page Number"
+msgstr ""
+
+#: admin/search.php:25
+msgid "Currently browsed page number"
+msgstr ""
+
+#: admin/search.php:47
+msgid "Custom text for search was successfully saved."
+msgstr ""
+
+#: admin/search.php:51
+msgid "Title settings for search were successfully saved."
+msgstr ""
+
+#: admin/search.php:55
+msgid "Meta title settings for search were successfully saved."
+msgstr ""
+
+#: admin/search.php:59
+msgid "Meta description settings for search were successfully saved."
+msgstr ""
+
+#: admin/search.php:75
+msgid "Search <strong>title</strong> settings"
+msgstr ""
+
+#: admin/search.php:140
+msgid "Search <strong>meta title</strong> settings"
+msgstr ""
+
+#: admin/search.php:205
+msgid "Search <strong>meta description</strong> settings"
+msgstr ""
+
+#: admin/search.php:269
+msgid "Define custom search text"
+msgstr ""
+
+#: admin/search.php:276
+msgid ""
+"Define custom text for search and use it in title, meta title or meta "
+"description."
+msgstr ""
+
+#: admin/search.php:290
+msgid ""
+"Snippet preview - shows how sample search result will look in google search "
+"result"
+msgstr ""
+
+#: admin/search.php:299
+msgid "Apple iPhone 5S"
+msgstr ""
+
+#: admin/search.php:357
+msgid ""
+"Define custom text for search and use it in title, meta title or meta "
+"description. You can use it i.e. when you want to place some specific text "
+"into title or description."
+msgstr ""
+
+#: admin/sitemap.php:3 index.php:581 index.php:605
+msgid "Sitemap"
+msgstr ""
+
+#: admin/sitemap.php:22
+msgid "Sitemap.xml generated correctly in"
+msgstr ""
+
+#: admin/sitemap.php:22 admin/sitemap.php:125 cron.php:7
+msgid "seconds"
+msgstr ""
+
+#: admin/sitemap.php:29
+msgid ""
+"To have sitemap automatically generated, cron must be set for your osclass "
+"installation."
+msgstr ""
+
+#: admin/sitemap.php:30
+msgid "Do not use built-in cron (General > Settings) as it is not reliable."
+msgstr ""
+
+#: admin/sitemap.php:31
+msgid ""
+"Contact your hosting provider to help you set cron for your osclass. Cron "
+"server must be used."
+msgstr ""
+
+#: admin/sitemap.php:32
+msgid "Check osclass docs how to set cron correctly"
+msgstr ""
+
+#: admin/sitemap.php:32
+msgid "Osclass cron settings"
+msgstr ""
+
+#: admin/sitemap.php:44
+msgid "Sitemap settings"
+msgstr ""
+
+#: admin/sitemap.php:48
+msgid "Sitemap Refresh Frequency"
+msgstr ""
+
+#: admin/sitemap.php:50
+msgid "Weekly"
+msgstr ""
+
+#: admin/sitemap.php:51
+msgid "Daily"
+msgstr ""
+
+#: admin/sitemap.php:52
+msgid "Hourly"
+msgstr ""
+
+#: admin/sitemap.php:53
+msgid "None"
+msgstr ""
+
+#: admin/sitemap.php:56
+msgid "Select how often will be sitemap file refreshed using cron."
+msgstr ""
+
+#: admin/sitemap.php:60
+msgid "Include Listings"
+msgstr ""
+
+#: admin/sitemap.php:63
+msgid "When set to YES, latest listings will be included in sitemap."
+msgstr ""
+
+#: admin/sitemap.php:67
+msgid "Maximum Count of Listings"
+msgstr ""
+
+#: admin/sitemap.php:69
+msgid "items"
+msgstr ""
+
+#: admin/sitemap.php:71
+msgid ""
+"Define maximum count of latest listings included in sitemap. More listings "
+"means more time required to refresh sitemap."
+msgstr ""
+
+#: admin/sitemap.php:75
+msgid "Disable Sitemap Feature"
+msgstr ""
+
+#: admin/sitemap.php:78
+msgid ""
+"When enabled, sitemap functions are disabled and sitemap.xml is not created "
+"by plugin."
+msgstr ""
+
+#: admin/sitemap.php:99
+msgid "Generate sitemap manually"
+msgstr ""
+
+#: admin/sitemap.php:103
+msgid "View your current"
+msgstr ""
+
+#: admin/sitemap.php:103
+msgid "sitemap.xml file"
+msgstr ""
+
+#: admin/sitemap.php:104
+msgid ""
+"When sitemap is successfully generated, it is automatically send to Google "
+"and Bing."
+msgstr ""
+
+#: admin/sitemap.php:109
+msgid "Generate"
+msgstr ""
+
+#: admin/sitemap.php:120
+msgid ""
+"When frequency of refresh is set, sitemap will be regulary generated using "
+"osclass cron functions, therefore make sure you have set external cron job "
+"that manage cron!"
+msgstr ""
+
+#: admin/sitemap.php:121
+msgid "When allowed, also latest listings will be included in sitemap."
+msgstr ""
+
+#: admin/sitemap.php:122
+msgid ""
+"Too many listings included in sitemap can break sitemap generation (too much "
+"server resources - exhausting). There should not be more than 1000 listings "
+"included in sitemap."
+msgstr ""
+
+#: admin/sitemap.php:123
+msgid ""
+"You can set cron to refresh sitemap regardless osclass cron calling file"
+msgstr ""
+
+#: admin/sitemap.php:124
+msgid ""
+"Maximum number of items that can be added to sitemap is 10 000, even if you "
+"enter higher number, just 10 000 listings will be included."
+msgstr ""
+
+#: admin/sitemap.php:125
+msgid "Maximum execution time on your server is"
+msgstr ""
+
+#: admin/sitemap.php:125
+msgid ""
+"If generation of sitemap takes almost as long as is execution time, contact "
+"your hosting provider to increase Maximum execution time on your server, or "
+"lower number of items included to sitemap"
+msgstr ""
+
+#: cron.php:7
+msgid "Sitemap generated in"
+msgstr ""
+
+#: form/item_post_edit.php:14
+msgid "Meta Tags"
+msgstr ""
+
+#: functions.php:145
+msgid "Page"
+msgstr ""
+
+#: index.php:136 index.php:275
+msgid "Publish a listing"
+msgstr ""
+
+#: index.php:137 index.php:276
+msgid "Edit your listing"
+msgstr ""
+
+#: index.php:138 index.php:277
+msgid "Send to a friend"
+msgstr ""
+
+#: index.php:139 index.php:278
+msgid "Contact seller"
+msgstr ""
+
+#: index.php:154 index.php:293
+msgid "Page not found"
+msgstr ""
+
+#: index.php:167 index.php:306
+msgid "All listings"
+msgstr ""
+
+#: index.php:178 index.php:317
+msgid "Recover your password"
+msgstr ""
+
+#: index.php:179 index.php:318
+msgid "Login into your account"
+msgstr ""
+
+#: index.php:187 index.php:326
+msgid "Create a new account"
+msgstr ""
+
+#: index.php:194 index.php:333
+msgid "Dashboard"
+msgstr ""
+
+#: index.php:195 index.php:334
+msgid "Manage my listings"
+msgstr ""
+
+#: index.php:196 index.php:335
+msgid "Manage my alerts"
+msgstr ""
+
+#: index.php:197 index.php:336
+msgid "Update my profile"
+msgstr ""
+
+#: index.php:198 index.php:337
+msgid "Public profile of"
+msgstr ""
+
+#: index.php:199 index.php:338
+msgid "Change my email"
+msgstr ""
+
+#: index.php:200 index.php:339
+msgid "Change my password"
+msgstr ""
+
+#: index.php:201 index.php:340
+msgid "Recover my password"
+msgstr ""
+
+#: index.php:209 index.php:348
+msgid "Contact us"
+msgstr ""
+
+#: index.php:417
+msgid "Create listing and sell your items faster with our classifieds."
+msgstr ""
+
+#: index.php:418
+msgid "Share listing with your friend."
+msgstr ""
+
+#: index.php:419
+msgid "In case of questions, feel free to contact seller of this listing."
+msgstr ""
+
+#: index.php:429
+msgid "Browse listings and information of seller"
+msgstr ""
+
+#: index.php:443
+msgid "Sorry, we were not able to find this page."
+msgstr ""
+
+#: index.php:467
+msgid "In case you have lost your password, you get get new one here"
+msgstr ""
+
+#: index.php:468 index.php:476
+msgid "Sign in to your user account and use benefits of registered users."
+msgstr ""
+
+#: index.php:482
+msgid ""
+"In case you have question about our classifieds or you want to connect with "
+"our team, feel free to contact us anytime."
+msgstr ""
+
+#: index.php:564
+msgid "Configure"
+msgstr ""
+
+#: index.php:578 index.php:602
+msgid "Pages"
+msgstr ""
+
+#: index.php:583 index.php:607
+msgid "Robots"
+msgstr ""
+
+#: index.php:606
+msgid "htaccess"
+msgstr ""
+
+#: index.php:618
+msgid "Report Bug"
+msgstr ""
+
+#: index.php:619
+msgid "Support Forums"
+msgstr ""
+
+#: index.php:620
+msgid "Contact Us"
+msgstr ""
