@@ -1,32 +1,28 @@
 name: Download from FTP and Commit to GitHub
 
 on:
-  workflow_dispatch:  # This will allow manual triggering of the workflow
+  workflow_dispatch:  # This allows manual triggering
 
 jobs:
   download-and-commit:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout the repository
-      uses: actions/checkout@v3
+    - name: Checkout Repository
+      uses: actions/checkout@v2
 
-    - name: Install lftp
-      run: sudo apt-get install -y lftp
-
-    - name: Download files from FTP server
+    - name: Download Files from FTP
       run: |
-        lftp -u ${{ secrets.FTP_USERNAME }},${{ secrets.FTP_PASSWORD }} ${{ secrets.FTP_HOST }} <<EOF
-        set ssl:verify-certificate no
-        mirror --verbose --parallel=2 ${{ secrets.FTP_REMOTE_DIR || '/' }} ./ftp_files
-        bye
-        EOF
+        sudo apt-get update
+        sudo apt-get install -y lftp
+        mkdir -p ftp_files
+        lftp -c "open -u ${{ secrets.FTP_USERNAME }},${{ secrets.FTP_PASSWORD }} ftp://ftp.yourserver.com && mirror --verbose /remote/path ./ftp_files"
 
-    - name: Commit downloaded files
+    - name: Commit and Push Changes
       run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
         git add ftp_files
-        git commit -m "Download files from FTP server"
+        git commit -m "Downloaded files from FTP"
         git push
-      continue-on-error: true  # Prevent workflow failure if no changes were made
+
