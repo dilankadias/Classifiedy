@@ -1,0 +1,32 @@
+name: Download from FTP and Commit to GitHub
+
+on:
+  workflow_dispatch:  # This will allow manual triggering of the workflow
+
+jobs:
+  download-and-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout the repository
+      uses: actions/checkout@v3
+
+    - name: Install lftp
+      run: sudo apt-get install -y lftp
+
+    - name: Download files from FTP server
+      run: |
+        lftp -u ${{ secrets.FTP_USERNAME }},${{ secrets.FTP_PASSWORD }} ${{ secrets.FTP_HOST }} <<EOF
+        set ssl:verify-certificate no
+        mirror --verbose --parallel=2 ${{ secrets.FTP_REMOTE_DIR || '/' }} ./ftp_files
+        bye
+        EOF
+
+    - name: Commit downloaded files
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add ftp_files
+        git commit -m "Download files from FTP server"
+        git push
+      continue-on-error: true  # Prevent workflow failure if no changes were made
