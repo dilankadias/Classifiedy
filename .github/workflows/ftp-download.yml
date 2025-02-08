@@ -19,7 +19,7 @@ jobs:
     - name: Download Files from FTP
       run: |
         mkdir -p ftp_files
-        lftp -c "open -u ${{ secrets.FTP_USERNAME }},${{ secrets.FTP_PASSWORD }} ftp://${{ secrets.FTP_HOST }} && mirror --verbose /if0_36074563/eyJ0IjoiZnRwIiwiYyI6eyJwIjoiWjVJQlNWS0RYQk5SIiwiaSI6IlwvIn19 ./ftp_files"
+        lftp -c "open -u ${{ secrets.FTP_USERNAME }},${{ secrets.FTP_PASSWORD }} ftp://${{ secrets.FTP_HOST }} && mirror --verbose / ./ftp_files"
 
     - name: Commit and Push Changes
       run: |
